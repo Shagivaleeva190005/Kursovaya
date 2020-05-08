@@ -28,10 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPagevvod = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button_sohranit = new System.Windows.Forms.Button();
+            this.button_rasschitat = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label = new System.Windows.Forms.Label();
@@ -39,7 +57,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBoxot = new System.Windows.Forms.TextBox();
+            this.textBoxdT1 = new System.Windows.Forms.TextBox();
             this.textBoxdt = new System.Windows.Forms.TextBox();
             this.textBoxT = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -54,13 +72,6 @@
             this.textBoxm = new System.Windows.Forms.TextBox();
             this.tabPagetabl = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tabPageygol = new System.Windows.Forms.TabPage();
-            this.tabPageygsk = new System.Windows.Forms.TabPage();
-            this.tabPageysk = new System.Windows.Forms.TabPage();
-            this.tabPagexy = new System.Windows.Forms.TabPage();
-            this.tabPagesk = new System.Windows.Forms.TabPage();
-            this.tabPageE = new System.Windows.Forms.TabPage();
-            this.tabPageanim = new System.Windows.Forms.TabPage();
             this.t = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.omega = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -72,10 +83,35 @@
             this.V = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.E = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPageygol = new System.Windows.Forms.TabPage();
+            this.tabPageygsk = new System.Windows.Forms.TabPage();
+            this.tabPageysk = new System.Windows.Forms.TabPage();
+            this.tabPagexy = new System.Windows.Forms.TabPage();
+            this.tabPagesk = new System.Windows.Forms.TabPage();
+            this.tabPageE = new System.Windows.Forms.TabPage();
+            this.tabPageanim = new System.Windows.Forms.TabPage();
+            this.chartfi = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartomega = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.charteps = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartxy = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartV = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartE = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tabControl1.SuspendLayout();
             this.tabPagevvod.SuspendLayout();
             this.tabPagetabl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabPageygol.SuspendLayout();
+            this.tabPageygsk.SuspendLayout();
+            this.tabPageysk.SuspendLayout();
+            this.tabPagexy.SuspendLayout();
+            this.tabPagesk.SuspendLayout();
+            this.tabPageE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartfi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartomega)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.charteps)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartxy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartE)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -98,8 +134,8 @@
             // 
             // tabPagevvod
             // 
-            this.tabPagevvod.Controls.Add(this.button1);
-            this.tabPagevvod.Controls.Add(this.button2);
+            this.tabPagevvod.Controls.Add(this.button_sohranit);
+            this.tabPagevvod.Controls.Add(this.button_rasschitat);
             this.tabPagevvod.Controls.Add(this.label16);
             this.tabPagevvod.Controls.Add(this.label15);
             this.tabPagevvod.Controls.Add(this.label);
@@ -107,7 +143,7 @@
             this.tabPagevvod.Controls.Add(this.label12);
             this.tabPagevvod.Controls.Add(this.label13);
             this.tabPagevvod.Controls.Add(this.label14);
-            this.tabPagevvod.Controls.Add(this.textBoxot);
+            this.tabPagevvod.Controls.Add(this.textBoxdT1);
             this.tabPagevvod.Controls.Add(this.textBoxdt);
             this.tabPagevvod.Controls.Add(this.textBoxT);
             this.tabPagevvod.Controls.Add(this.label6);
@@ -128,25 +164,26 @@
             this.tabPagevvod.Text = "ввод данных";
             this.tabPagevvod.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // button_sohranit
             // 
-            this.button1.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(592, 205);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 23);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "сохранить";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_sohranit.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_sohranit.Location = new System.Drawing.Point(592, 205);
+            this.button_sohranit.Name = "button_sohranit";
+            this.button_sohranit.Size = new System.Drawing.Size(104, 23);
+            this.button_sohranit.TabIndex = 27;
+            this.button_sohranit.Text = "сохранить";
+            this.button_sohranit.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // button_rasschitat
             // 
-            this.button2.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(259, 205);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 23);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "рассчитать";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_rasschitat.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_rasschitat.Location = new System.Drawing.Point(259, 205);
+            this.button_rasschitat.Name = "button_rasschitat";
+            this.button_rasschitat.Size = new System.Drawing.Size(104, 23);
+            this.button_rasschitat.TabIndex = 26;
+            this.button_rasschitat.Text = "рассчитать";
+            this.button_rasschitat.UseVisualStyleBackColor = true;
+            this.button_rasschitat.Click += new System.EventHandler(this.button_russchitat_Click);
             // 
             // label16
             // 
@@ -221,13 +258,13 @@
             this.label14.TabIndex = 16;
             this.label14.Text = "Параметры моделирования";
             // 
-            // textBoxot
+            // textBoxdT1
             // 
-            this.textBoxot.BackColor = System.Drawing.Color.Gold;
-            this.textBoxot.Location = new System.Drawing.Point(772, 152);
-            this.textBoxot.Name = "textBoxot";
-            this.textBoxot.Size = new System.Drawing.Size(97, 19);
-            this.textBoxot.TabIndex = 15;
+            this.textBoxdT1.BackColor = System.Drawing.Color.Gold;
+            this.textBoxdT1.Location = new System.Drawing.Point(772, 152);
+            this.textBoxdT1.Name = "textBoxdT1";
+            this.textBoxdT1.Size = new System.Drawing.Size(97, 19);
+            this.textBoxdT1.TabIndex = 15;
             // 
             // textBoxdt
             // 
@@ -375,69 +412,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(808, 65);
             this.dataGridView1.TabIndex = 0;
             // 
-            // tabPageygol
-            // 
-            this.tabPageygol.Location = new System.Drawing.Point(4, 23);
-            this.tabPageygol.Name = "tabPageygol";
-            this.tabPageygol.Size = new System.Drawing.Size(978, 432);
-            this.tabPageygol.TabIndex = 2;
-            this.tabPageygol.Text = "угол";
-            this.tabPageygol.UseVisualStyleBackColor = true;
-            // 
-            // tabPageygsk
-            // 
-            this.tabPageygsk.Location = new System.Drawing.Point(4, 23);
-            this.tabPageygsk.Name = "tabPageygsk";
-            this.tabPageygsk.Size = new System.Drawing.Size(978, 432);
-            this.tabPageygsk.TabIndex = 3;
-            this.tabPageygsk.Text = "угловая скорость";
-            this.tabPageygsk.UseVisualStyleBackColor = true;
-            // 
-            // tabPageysk
-            // 
-            this.tabPageysk.Location = new System.Drawing.Point(4, 23);
-            this.tabPageysk.Name = "tabPageysk";
-            this.tabPageysk.Size = new System.Drawing.Size(978, 432);
-            this.tabPageysk.TabIndex = 4;
-            this.tabPageysk.Text = "ускорение";
-            this.tabPageysk.UseVisualStyleBackColor = true;
-            // 
-            // tabPagexy
-            // 
-            this.tabPagexy.Location = new System.Drawing.Point(4, 23);
-            this.tabPagexy.Name = "tabPagexy";
-            this.tabPagexy.Size = new System.Drawing.Size(978, 432);
-            this.tabPagexy.TabIndex = 5;
-            this.tabPagexy.Text = "координаты";
-            this.tabPagexy.UseVisualStyleBackColor = true;
-            // 
-            // tabPagesk
-            // 
-            this.tabPagesk.Location = new System.Drawing.Point(4, 23);
-            this.tabPagesk.Name = "tabPagesk";
-            this.tabPagesk.Size = new System.Drawing.Size(978, 432);
-            this.tabPagesk.TabIndex = 6;
-            this.tabPagesk.Text = "скорости";
-            this.tabPagesk.UseVisualStyleBackColor = true;
-            // 
-            // tabPageE
-            // 
-            this.tabPageE.Location = new System.Drawing.Point(4, 23);
-            this.tabPageE.Name = "tabPageE";
-            this.tabPageE.Size = new System.Drawing.Size(978, 432);
-            this.tabPageE.TabIndex = 7;
-            this.tabPageE.Text = "энергия";
-            this.tabPageE.UseVisualStyleBackColor = true;
-            // 
-            // tabPageanim
-            // 
-            this.tabPageanim.Location = new System.Drawing.Point(4, 23);
-            this.tabPageanim.Name = "tabPageanim";
-            this.tabPageanim.Size = new System.Drawing.Size(978, 432);
-            this.tabPageanim.TabIndex = 8;
-            this.tabPageanim.Text = "анимация";
-            this.tabPageanim.UseVisualStyleBackColor = true;
-            // 
             // t
             // 
             this.t.HeaderText = "t,с";
@@ -504,6 +478,171 @@
             this.dE.Name = "dE";
             this.dE.Width = 70;
             // 
+            // tabPageygol
+            // 
+            this.tabPageygol.Controls.Add(this.chartfi);
+            this.tabPageygol.Location = new System.Drawing.Point(4, 23);
+            this.tabPageygol.Name = "tabPageygol";
+            this.tabPageygol.Size = new System.Drawing.Size(978, 432);
+            this.tabPageygol.TabIndex = 2;
+            this.tabPageygol.Text = "угол";
+            this.tabPageygol.UseVisualStyleBackColor = true;
+            // 
+            // tabPageygsk
+            // 
+            this.tabPageygsk.Controls.Add(this.chartomega);
+            this.tabPageygsk.Location = new System.Drawing.Point(4, 23);
+            this.tabPageygsk.Name = "tabPageygsk";
+            this.tabPageygsk.Size = new System.Drawing.Size(978, 432);
+            this.tabPageygsk.TabIndex = 3;
+            this.tabPageygsk.Text = "угловая скорость";
+            this.tabPageygsk.UseVisualStyleBackColor = true;
+            // 
+            // tabPageysk
+            // 
+            this.tabPageysk.Controls.Add(this.charteps);
+            this.tabPageysk.Location = new System.Drawing.Point(4, 23);
+            this.tabPageysk.Name = "tabPageysk";
+            this.tabPageysk.Size = new System.Drawing.Size(978, 432);
+            this.tabPageysk.TabIndex = 4;
+            this.tabPageysk.Text = "ускорение";
+            this.tabPageysk.UseVisualStyleBackColor = true;
+            // 
+            // tabPagexy
+            // 
+            this.tabPagexy.Controls.Add(this.chartxy);
+            this.tabPagexy.Location = new System.Drawing.Point(4, 23);
+            this.tabPagexy.Name = "tabPagexy";
+            this.tabPagexy.Size = new System.Drawing.Size(978, 432);
+            this.tabPagexy.TabIndex = 5;
+            this.tabPagexy.Text = "координаты";
+            this.tabPagexy.UseVisualStyleBackColor = true;
+            // 
+            // tabPagesk
+            // 
+            this.tabPagesk.Controls.Add(this.chartV);
+            this.tabPagesk.Location = new System.Drawing.Point(4, 23);
+            this.tabPagesk.Name = "tabPagesk";
+            this.tabPagesk.Size = new System.Drawing.Size(978, 432);
+            this.tabPagesk.TabIndex = 6;
+            this.tabPagesk.Text = "скорости";
+            this.tabPagesk.UseVisualStyleBackColor = true;
+            // 
+            // tabPageE
+            // 
+            this.tabPageE.Controls.Add(this.chartE);
+            this.tabPageE.Location = new System.Drawing.Point(4, 23);
+            this.tabPageE.Name = "tabPageE";
+            this.tabPageE.Size = new System.Drawing.Size(978, 432);
+            this.tabPageE.TabIndex = 7;
+            this.tabPageE.Text = "энергия";
+            this.tabPageE.UseVisualStyleBackColor = true;
+            // 
+            // tabPageanim
+            // 
+            this.tabPageanim.Location = new System.Drawing.Point(4, 23);
+            this.tabPageanim.Name = "tabPageanim";
+            this.tabPageanim.Size = new System.Drawing.Size(978, 432);
+            this.tabPageanim.TabIndex = 8;
+            this.tabPageanim.Text = "анимация";
+            this.tabPageanim.UseVisualStyleBackColor = true;
+            // 
+            // chartfi
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartfi.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartfi.Legends.Add(legend1);
+            this.chartfi.Location = new System.Drawing.Point(3, 3);
+            this.chartfi.Name = "chartfi";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartfi.Series.Add(series1);
+            this.chartfi.Size = new System.Drawing.Size(467, 300);
+            this.chartfi.TabIndex = 0;
+            this.chartfi.Text = "Зависимость угла от времени";
+            // 
+            // chartomega
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.chartomega.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartomega.Legends.Add(legend2);
+            this.chartomega.Location = new System.Drawing.Point(8, 8);
+            this.chartomega.Name = "chartomega";
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartomega.Series.Add(series2);
+            this.chartomega.Size = new System.Drawing.Size(490, 369);
+            this.chartomega.TabIndex = 0;
+            this.chartomega.Text = "зависимость линейной скорости от времени";
+            // 
+            // charteps
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.charteps.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.charteps.Legends.Add(legend3);
+            this.charteps.Location = new System.Drawing.Point(8, 8);
+            this.charteps.Name = "charteps";
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.charteps.Series.Add(series3);
+            this.charteps.Size = new System.Drawing.Size(438, 344);
+            this.charteps.TabIndex = 0;
+            this.charteps.Text = "зависимость ускорения от времени";
+            // 
+            // chartxy
+            // 
+            chartArea4.Name = "ChartArea1";
+            this.chartxy.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.chartxy.Legends.Add(legend4);
+            this.chartxy.Location = new System.Drawing.Point(8, 8);
+            this.chartxy.Name = "chartxy";
+            series4.ChartArea = "ChartArea1";
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            this.chartxy.Series.Add(series4);
+            this.chartxy.Size = new System.Drawing.Size(443, 356);
+            this.chartxy.TabIndex = 0;
+            this.chartxy.Text = "зависимость координат";
+            // 
+            // chartV
+            // 
+            chartArea5.Name = "ChartArea1";
+            this.chartV.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chartV.Legends.Add(legend5);
+            this.chartV.Location = new System.Drawing.Point(8, 8);
+            this.chartV.Name = "chartV";
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            this.chartV.Series.Add(series5);
+            this.chartV.Size = new System.Drawing.Size(443, 373);
+            this.chartV.TabIndex = 0;
+            this.chartV.Text = "зависимость скоростей";
+            // 
+            // chartE
+            // 
+            chartArea6.Name = "ChartArea1";
+            this.chartE.ChartAreas.Add(chartArea6);
+            legend6.Name = "Legend1";
+            this.chartE.Legends.Add(legend6);
+            this.chartE.Location = new System.Drawing.Point(8, 8);
+            this.chartE.Name = "chartE";
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Series1";
+            this.chartE.Series.Add(series6);
+            this.chartE.Size = new System.Drawing.Size(420, 378);
+            this.chartE.TabIndex = 0;
+            this.chartE.Text = "Зависимость энергии";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -518,6 +657,18 @@
             this.tabPagevvod.PerformLayout();
             this.tabPagetabl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabPageygol.ResumeLayout(false);
+            this.tabPageygsk.ResumeLayout(false);
+            this.tabPageysk.ResumeLayout(false);
+            this.tabPagexy.ResumeLayout(false);
+            this.tabPagesk.ResumeLayout(false);
+            this.tabPageE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chartfi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartomega)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.charteps)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartxy)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartE)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -526,8 +677,8 @@
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPagevvod;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button_sohranit;
+        private System.Windows.Forms.Button button_rasschitat;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label;
@@ -535,7 +686,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBoxot;
+        private System.Windows.Forms.TextBox textBoxdT1;
         private System.Windows.Forms.TextBox textBoxdt;
         private System.Windows.Forms.TextBox textBoxT;
         private System.Windows.Forms.Label label6;
@@ -568,6 +719,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn V;
         private System.Windows.Forms.DataGridViewTextBoxColumn E;
         private System.Windows.Forms.DataGridViewTextBoxColumn dE;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartfi;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartomega;
+        private System.Windows.Forms.DataVisualization.Charting.Chart charteps;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartxy;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartV;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartE;
     }
 }
 
