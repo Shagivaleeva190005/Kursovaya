@@ -21,10 +21,5 @@ namespace Kursovaya_rabota
         {
 
         }
-
-        private void tabPagetabl_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

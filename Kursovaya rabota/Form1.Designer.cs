@@ -40,8 +40,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.textBoxot = new System.Windows.Forms.TextBox();
-            this.textBoxd = new System.Windows.Forms.TextBox();
-            this.textBoxpr = new System.Windows.Forms.TextBox();
+            this.textBoxdt = new System.Windows.Forms.TextBox();
+            this.textBoxT = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -49,8 +49,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBoxyg = new System.Windows.Forms.TextBox();
-            this.textBoxL = new System.Windows.Forms.TextBox();
+            this.textBoxfi = new System.Windows.Forms.TextBox();
+            this.textBoxl = new System.Windows.Forms.TextBox();
             this.textBoxm = new System.Windows.Forms.TextBox();
             this.tabPagetabl = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -61,17 +61,17 @@
             this.tabPagesk = new System.Windows.Forms.TabPage();
             this.tabPageE = new System.Windows.Forms.TabPage();
             this.tabPageanim = new System.Windows.Forms.TabPage();
-            this.vremya = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ygol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ygsk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ysk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.t = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.omega = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.eps = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.x = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.y = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.skx = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sky = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.En = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rEn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Vx = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Vy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.V = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.E = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPagevvod.SuspendLayout();
             this.tabPagetabl.SuspendLayout();
@@ -108,8 +108,8 @@
             this.tabPagevvod.Controls.Add(this.label13);
             this.tabPagevvod.Controls.Add(this.label14);
             this.tabPagevvod.Controls.Add(this.textBoxot);
-            this.tabPagevvod.Controls.Add(this.textBoxd);
-            this.tabPagevvod.Controls.Add(this.textBoxpr);
+            this.tabPagevvod.Controls.Add(this.textBoxdt);
+            this.tabPagevvod.Controls.Add(this.textBoxT);
             this.tabPagevvod.Controls.Add(this.label6);
             this.tabPagevvod.Controls.Add(this.label7);
             this.tabPagevvod.Controls.Add(this.label8);
@@ -117,8 +117,8 @@
             this.tabPagevvod.Controls.Add(this.label3);
             this.tabPagevvod.Controls.Add(this.label2);
             this.tabPagevvod.Controls.Add(this.label1);
-            this.tabPagevvod.Controls.Add(this.textBoxyg);
-            this.tabPagevvod.Controls.Add(this.textBoxL);
+            this.tabPagevvod.Controls.Add(this.textBoxfi);
+            this.tabPagevvod.Controls.Add(this.textBoxl);
             this.tabPagevvod.Controls.Add(this.textBoxm);
             this.tabPagevvod.Location = new System.Drawing.Point(4, 23);
             this.tabPagevvod.Name = "tabPagevvod";
@@ -229,22 +229,22 @@
             this.textBoxot.Size = new System.Drawing.Size(97, 19);
             this.textBoxot.TabIndex = 15;
             // 
-            // textBoxd
+            // textBoxdt
             // 
-            this.textBoxd.BackColor = System.Drawing.Color.Gold;
-            this.textBoxd.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.textBoxd.Location = new System.Drawing.Point(772, 109);
-            this.textBoxd.Name = "textBoxd";
-            this.textBoxd.Size = new System.Drawing.Size(97, 19);
-            this.textBoxd.TabIndex = 14;
+            this.textBoxdt.BackColor = System.Drawing.Color.Gold;
+            this.textBoxdt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.textBoxdt.Location = new System.Drawing.Point(772, 109);
+            this.textBoxdt.Name = "textBoxdt";
+            this.textBoxdt.Size = new System.Drawing.Size(97, 19);
+            this.textBoxdt.TabIndex = 14;
             // 
-            // textBoxpr
+            // textBoxT
             // 
-            this.textBoxpr.BackColor = System.Drawing.Color.Gold;
-            this.textBoxpr.Location = new System.Drawing.Point(772, 60);
-            this.textBoxpr.Name = "textBoxpr";
-            this.textBoxpr.Size = new System.Drawing.Size(97, 19);
-            this.textBoxpr.TabIndex = 13;
+            this.textBoxT.BackColor = System.Drawing.Color.Gold;
+            this.textBoxT.Location = new System.Drawing.Point(772, 60);
+            this.textBoxT.Name = "textBoxT";
+            this.textBoxT.Size = new System.Drawing.Size(97, 19);
+            this.textBoxT.TabIndex = 13;
             // 
             // label6
             // 
@@ -319,22 +319,22 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Физические характеристики";
             // 
-            // textBoxyg
+            // textBoxfi
             // 
-            this.textBoxyg.BackColor = System.Drawing.Color.Gold;
-            this.textBoxyg.Location = new System.Drawing.Point(241, 153);
-            this.textBoxyg.Name = "textBoxyg";
-            this.textBoxyg.Size = new System.Drawing.Size(97, 19);
-            this.textBoxyg.TabIndex = 3;
+            this.textBoxfi.BackColor = System.Drawing.Color.Gold;
+            this.textBoxfi.Location = new System.Drawing.Point(241, 153);
+            this.textBoxfi.Name = "textBoxfi";
+            this.textBoxfi.Size = new System.Drawing.Size(97, 19);
+            this.textBoxfi.TabIndex = 3;
             // 
-            // textBoxL
+            // textBoxl
             // 
-            this.textBoxL.BackColor = System.Drawing.Color.Gold;
-            this.textBoxL.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.textBoxL.Location = new System.Drawing.Point(241, 108);
-            this.textBoxL.Name = "textBoxL";
-            this.textBoxL.Size = new System.Drawing.Size(97, 19);
-            this.textBoxL.TabIndex = 1;
+            this.textBoxl.BackColor = System.Drawing.Color.Gold;
+            this.textBoxl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.textBoxl.Location = new System.Drawing.Point(241, 108);
+            this.textBoxl.Name = "textBoxl";
+            this.textBoxl.Size = new System.Drawing.Size(97, 19);
+            this.textBoxl.TabIndex = 1;
             // 
             // textBoxm
             // 
@@ -354,23 +354,22 @@
             this.tabPagetabl.TabIndex = 1;
             this.tabPagetabl.Text = "таблица";
             this.tabPagetabl.UseVisualStyleBackColor = true;
-            this.tabPagetabl.Click += new System.EventHandler(this.tabPagetabl_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.vremya,
-            this.ygol,
-            this.ygsk,
-            this.ysk,
+            this.t,
+            this.fi,
+            this.omega,
+            this.eps,
             this.x,
             this.y,
-            this.skx,
-            this.sky,
-            this.sk,
-            this.En,
-            this.rEn});
+            this.Vx,
+            this.Vy,
+            this.V,
+            this.E,
+            this.dE});
             this.dataGridView1.Location = new System.Drawing.Point(8, 6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(808, 65);
@@ -439,29 +438,29 @@
             this.tabPageanim.Text = "анимация";
             this.tabPageanim.UseVisualStyleBackColor = true;
             // 
-            // vremya
+            // t
             // 
-            this.vremya.HeaderText = "t,с";
-            this.vremya.Name = "vremya";
-            this.vremya.Width = 70;
+            this.t.HeaderText = "t,с";
+            this.t.Name = "t";
+            this.t.Width = 70;
             // 
-            // ygol
+            // fi
             // 
-            this.ygol.HeaderText = "θ°";
-            this.ygol.Name = "ygol";
-            this.ygol.Width = 70;
+            this.fi.HeaderText = "θ°";
+            this.fi.Name = "fi";
+            this.fi.Width = 70;
             // 
-            // ygsk
+            // omega
             // 
-            this.ygsk.HeaderText = "ω,°/с";
-            this.ygsk.Name = "ygsk";
-            this.ygsk.Width = 70;
+            this.omega.HeaderText = "ω,°/с";
+            this.omega.Name = "omega";
+            this.omega.Width = 70;
             // 
-            // ysk
+            // eps
             // 
-            this.ysk.HeaderText = "ε,°/с²";
-            this.ysk.Name = "ysk";
-            this.ysk.Width = 70;
+            this.eps.HeaderText = "ε,°/с²";
+            this.eps.Name = "eps";
+            this.eps.Width = 70;
             // 
             // x
             // 
@@ -475,35 +474,35 @@
             this.y.Name = "y";
             this.y.Width = 70;
             // 
-            // skx
+            // Vx
             // 
-            this.skx.HeaderText = "Vx";
-            this.skx.Name = "skx";
-            this.skx.Width = 70;
+            this.Vx.HeaderText = "Vx";
+            this.Vx.Name = "Vx";
+            this.Vx.Width = 70;
             // 
-            // sky
+            // Vy
             // 
-            this.sky.HeaderText = "Vy";
-            this.sky.Name = "sky";
-            this.sky.Width = 70;
+            this.Vy.HeaderText = "Vy";
+            this.Vy.Name = "Vy";
+            this.Vy.Width = 70;
             // 
-            // sk
+            // V
             // 
-            this.sk.HeaderText = "V";
-            this.sk.Name = "sk";
-            this.sk.Width = 70;
+            this.V.HeaderText = "V";
+            this.V.Name = "V";
+            this.V.Width = 70;
             // 
-            // En
+            // E
             // 
-            this.En.HeaderText = "E,Дж";
-            this.En.Name = "En";
-            this.En.Width = 70;
+            this.E.HeaderText = "E,Дж";
+            this.E.Name = "E";
+            this.E.Width = 70;
             // 
-            // rEn
+            // dE
             // 
-            this.rEn.HeaderText = "ΔE,Дж";
-            this.rEn.Name = "rEn";
-            this.rEn.Width = 70;
+            this.dE.HeaderText = "ΔE,Дж";
+            this.dE.Name = "dE";
+            this.dE.Width = 70;
             // 
             // Form1
             // 
@@ -537,8 +536,8 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBoxot;
-        private System.Windows.Forms.TextBox textBoxd;
-        private System.Windows.Forms.TextBox textBoxpr;
+        private System.Windows.Forms.TextBox textBoxdt;
+        private System.Windows.Forms.TextBox textBoxT;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -546,8 +545,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBoxyg;
-        private System.Windows.Forms.TextBox textBoxL;
+        private System.Windows.Forms.TextBox textBoxfi;
+        private System.Windows.Forms.TextBox textBoxl;
         private System.Windows.Forms.TextBox textBoxm;
         private System.Windows.Forms.TabPage tabPagetabl;
         private System.Windows.Forms.TabPage tabPageygol;
@@ -558,17 +557,17 @@
         private System.Windows.Forms.TabPage tabPageE;
         private System.Windows.Forms.TabPage tabPageanim;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn vremya;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ygol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ygsk;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ysk;
+        private System.Windows.Forms.DataGridViewTextBoxColumn t;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn omega;
+        private System.Windows.Forms.DataGridViewTextBoxColumn eps;
         private System.Windows.Forms.DataGridViewTextBoxColumn x;
         private System.Windows.Forms.DataGridViewTextBoxColumn y;
-        private System.Windows.Forms.DataGridViewTextBoxColumn skx;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sky;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sk;
-        private System.Windows.Forms.DataGridViewTextBoxColumn En;
-        private System.Windows.Forms.DataGridViewTextBoxColumn rEn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Vx;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Vy;
+        private System.Windows.Forms.DataGridViewTextBoxColumn V;
+        private System.Windows.Forms.DataGridViewTextBoxColumn E;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dE;
     }
 }
 
