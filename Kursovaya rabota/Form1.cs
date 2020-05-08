@@ -47,14 +47,12 @@ namespace Kursovaya_rabota
             }
         }
 
-        private void button_russchitat_Click(object sender, EventArgs e)
+        private void button_rasschitat_Click(object sender, EventArgs e)
         {
-           rasschitat(Double.Parse(textBoxm.Text),
-                   Double.Parse(textBoxl.Text),
-                   Double.Parse(textBoxfi.Text),
-                   Double.Parse(textBoxT.Text),
-                   Double.Parse(textBoxdt.Text),
-                   Double.Parse(textBoxdT1.Text));
+        }
+
+        private void button_sohranit_Click(object sender, EventArgs e)
+        {
         }
     }
 }
