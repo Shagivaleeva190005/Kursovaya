@@ -22,6 +22,8 @@ namespace Kursovaya_rabota
             return Double.TryParse(str.Replace('.', ','), _numberStyles, _fileCulture, out val);
         }
 
+        Graphics animate; // для анимации
+
         const double g = 9.816; // ускорение свободного падения
 
         static double m; // масса маятника
@@ -170,6 +172,8 @@ namespace Kursovaya_rabota
             chartEnergy.Series[0].Points.AddXY(moment.t, moment.E); // энергия
 
             chartdEnergy.Series[0].Points.AddXY(moment.t, moment.dE); // отклонение энергии от начальной
+
+            moments.Add(moment); // сохранение в лист
         }
 
 
@@ -177,6 +181,9 @@ namespace Kursovaya_rabota
         public Form1()
         {
             InitializeComponent();
+
+            pictureBoxAnimate.Image = new Bitmap(pictureBoxAnimate.Width, pictureBoxAnimate.Height); // создание изобржения и помещение его в пикчербокс
+            animate = Graphics.FromImage(pictureBoxAnimate.Image);//создание графики из изображения
         }
 
         // по клику на кнопку рассчета
@@ -225,11 +232,44 @@ namespace Kursovaya_rabota
 
             // сообщение о завершении
             MessageBox.Show("Рассчет завершен!");
+
+            timerAnimate.Enabled = true;
+            timerAnimate.Interval = (int)(dT * 10000) + 1;
         }
 
         private void button_sohranit_Click(object sender, EventArgs e)
         {
+        // анимирование
+        int i = 1; // номер момента
+        private void timerAnimate_Tick(object sender, EventArgs e)
+        {
+            // если достигли конца листа, начать сначала
+            if (i >= moments.Count)
+            {
+                i = 1;
+            }
 
+            // очистиить рисунок
+            animate.Clear(Color.White);
+
+            // коэффициент масштабирования
+            double k = pictureBoxAnimate.Height / l / 2;
+
+            // отрисовка маятника
+            animate.DrawLine(new Pen(Color.Black, 2),
+                (float)(pictureBoxAnimate.Width / 2), (float)(k * l), 
+                (float)(pictureBoxAnimate.Width / 2 + k * moments[i].x), (float)(k * (2*l - moments[i].y)));
+
+            // отрисовка массы
+            animate.FillEllipse(Brushes.Red, 
+                (float)(pictureBoxAnimate.Width / 2 + k * moments[i].x) - 4, (float)(k * (2 * l - moments[i].y) - 4),
+                8, 8);
+
+            //перерисовываем
+            pictureBoxAnimate.Invalidate(); 
+
+            // переход к следующему моменту
+            i++;
         }
     }
 }
