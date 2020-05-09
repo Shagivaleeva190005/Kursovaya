@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
+using System.IO;
 
 namespace Kursovaya_rabota
 {
@@ -239,6 +240,90 @@ namespace Kursovaya_rabota
 
         private void button_sohranit_Click(object sender, EventArgs e)
         {
+            // создание папки для отчета
+            Directory.CreateDirectory("Отчет");
+
+            // сохранение графиков
+            chartAngle.SaveImage("Отчет\\угол.jpeg",
+                    System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Jpeg);
+            chartAngSpeed.SaveImage("Отчет\\угловая скорость.jpeg",
+                    System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Jpeg);
+            chartAcceleration.SaveImage("Отчет\\ускорение.jpeg",
+                    System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Jpeg);
+            chartCoordinates.SaveImage("Отчет\\координаты.jpeg",
+                    System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Jpeg);
+            chartSpeed.SaveImage("Отчет\\скорость.jpeg",
+                    System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Jpeg);
+            chartEnergy.SaveImage("Отчет\\энергия.jpeg",
+                    System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Jpeg);
+            chartdEnergy.SaveImage("Отчет\\отклонение энергии от начальной.jpeg",
+                    System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Jpeg);
+
+            //создание файла с результатами
+            StreamWriter sw = new StreamWriter("Отчет\\результаты моделирования.csv", false, Encoding.UTF8);
+
+            // запись заголовков
+            sw.WriteLine("t, с; φ, °; ω, °/с; ε, °/с²; x, м; y, м; Vx, м/с; Vy,м/с; V, м/с; E, Дж; dE, Дж");
+
+            // запись всех моментов
+            foreach (var i in moments)
+            {
+                sw.WriteLine(Math.Round(i.t, 4) + ";" +
+                Math.Round(i.fi * 180 / Math.PI, 4) + ";" +
+                Math.Round(i.omega * 180 / Math.PI, 4) + ";" +
+                Math.Round(i.eps * 180 / Math.PI, 4) + ";" +
+                Math.Round(i.x, 4) + ";" +
+                Math.Round(i.y, 4) + ";" +
+                Math.Round(i.Vx, 4) + ";" +
+                Math.Round(i.Vy, 4) + ";" +
+                Math.Round(i.V, 4) + ";" +
+                Math.Round(i.E, 4) + ";" +
+                Math.Round(i.dE, 4));
+            }
+
+            // закрытие файла
+            sw.Close();
+
+
+            // создание файла с отчетом
+            sw = new StreamWriter("Отчет\\отчет.txt");
+
+            // запись заголовков
+            sw.WriteLine("Моделирование колебаний маятника\n\n" +
+                "Физические параметры\n" + 
+                "Масса груза: " + m + " кг\n" +
+                "Длина маятника: " + l + " м\n" +
+                "Начальный угол: " + (fi_0 * 180 / Math.PI) + "°\n\n" +
+                "Параметры моделирования\n" +
+                "Продолжительность моделирования: " + T + " с\n" +
+                "Период дискретизации: " + dt + " с\n" +
+                "Период вывода в отчет: " + dT + " с\n\n" +
+                "Результаты моделирования\n\n" +
+                "t, с; φ, °; ω, °/с; ε, °/с²; x, м; y, м; Vx, м/с; Vy,м/с; V, м/с; E, Дж; dE, Дж");
+
+            // запись всех моментов
+            foreach (var i in moments)
+            {
+                sw.WriteLine(Math.Round(i.t, 4) + "\t" +
+                Math.Round(i.fi * 180 / Math.PI, 4) + "\t" +
+                Math.Round(i.omega * 180 / Math.PI, 4) + "\t" +
+                Math.Round(i.eps * 180 / Math.PI, 4) + "\t" +
+                Math.Round(i.x, 4) + "\t" +
+                Math.Round(i.y, 4) + "\t" +
+                Math.Round(i.Vx, 4) + "\t" +
+                Math.Round(i.Vy, 4) + "\t" +
+                Math.Round(i.V, 4) + "\t" +
+                Math.Round(i.E, 4) + "\t" +
+                Math.Round(i.dE, 4));
+            }
+            
+            // закрытие файла
+            sw.Close();
+
+            // сообщение о завершении
+            MessageBox.Show("Отчет сохранен!");
+        }
+
         // анимирование
         int i = 1; // номер момента
         private void timerAnimate_Tick(object sender, EventArgs e)
