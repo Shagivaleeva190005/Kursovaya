@@ -29,33 +29,34 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea22 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend22 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series31 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea23 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend23 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series32 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea24 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend24 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series33 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea25 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend25 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series34 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series35 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea26 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend26 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series36 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series37 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series38 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea27 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend27 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series39 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea28 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend28 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series40 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series21 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea16 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend16 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series22 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series23 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series24 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series25 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea19 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend19 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series26 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series27 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series28 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea20 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend20 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series29 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea21 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend21 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series30 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageInput = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_sohranit = new System.Windows.Forms.Button();
             this.button_rasschitat = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
@@ -108,9 +109,10 @@
             this.tabPageAnimation = new System.Windows.Forms.TabPage();
             this.pictureBoxAnimate = new System.Windows.Forms.PictureBox();
             this.timerAnimate = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.trackBarAnimation = new System.Windows.Forms.TrackBar();
             this.tabControl1.SuspendLayout();
             this.tabPageInput.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPageTable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.tabPageAngle.SuspendLayout();
@@ -129,7 +131,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.chartdEnergy)).BeginInit();
             this.tabPageAnimation.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarAnimation)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -184,6 +186,16 @@
             this.tabPageInput.Text = "ввод данных";
             this.tabPageInput.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(362, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(616, 432);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
+            // 
             // button_sohranit
             // 
             this.button_sohranit.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -198,7 +210,7 @@
             // button_rasschitat
             // 
             this.button_rasschitat.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_rasschitat.Location = new System.Drawing.Point(32, 363);
+            this.button_rasschitat.Location = new System.Drawing.Point(58, 363);
             this.button_rasschitat.Name = "button_rasschitat";
             this.button_rasschitat.Size = new System.Drawing.Size(104, 23);
             this.button_rasschitat.TabIndex = 26;
@@ -287,6 +299,7 @@
             this.textBoxdTr.Size = new System.Drawing.Size(97, 19);
             this.textBoxdTr.TabIndex = 15;
             this.textBoxdTr.Text = "0.01";
+            this.textBoxdTr.TextChanged += new System.EventHandler(this.textBoxdTr_TextChanged);
             // 
             // textBoxdt
             // 
@@ -297,6 +310,7 @@
             this.textBoxdt.Size = new System.Drawing.Size(97, 19);
             this.textBoxdt.TabIndex = 14;
             this.textBoxdt.Text = "0.001";
+            this.textBoxdt.TextChanged += new System.EventHandler(this.textBoxdt_TextChanged);
             // 
             // textBoxT
             // 
@@ -306,6 +320,7 @@
             this.textBoxT.Size = new System.Drawing.Size(97, 19);
             this.textBoxT.TabIndex = 13;
             this.textBoxT.Text = "10";
+            this.textBoxT.TextChanged += new System.EventHandler(this.textBoxT_TextChanged);
             // 
             // label6
             // 
@@ -388,6 +403,7 @@
             this.textBoxfi_0.Size = new System.Drawing.Size(97, 19);
             this.textBoxfi_0.TabIndex = 3;
             this.textBoxfi_0.Text = "179";
+            this.textBoxfi_0.TextChanged += new System.EventHandler(this.textBoxfi_0_TextChanged);
             // 
             // textBoxl
             // 
@@ -398,6 +414,7 @@
             this.textBoxl.Size = new System.Drawing.Size(97, 19);
             this.textBoxl.TabIndex = 1;
             this.textBoxl.Text = "1";
+            this.textBoxl.TextChanged += new System.EventHandler(this.textBoxl_TextChanged);
             // 
             // textBoxm
             // 
@@ -407,6 +424,7 @@
             this.textBoxm.Size = new System.Drawing.Size(97, 19);
             this.textBoxm.TabIndex = 0;
             this.textBoxm.Text = "1";
+            this.textBoxm.TextChanged += new System.EventHandler(this.textBoxm_TextChanged);
             // 
             // tabPageTable
             // 
@@ -517,21 +535,21 @@
             // 
             // chartAngle
             // 
-            chartArea22.AxisX.LabelStyle.Format = "0.00";
-            chartArea22.Name = "ChartArea1";
-            this.chartAngle.ChartAreas.Add(chartArea22);
-            legend22.Alignment = System.Drawing.StringAlignment.Center;
-            legend22.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend22.Name = "Legend1";
-            this.chartAngle.Legends.Add(legend22);
+            chartArea15.AxisX.LabelStyle.Format = "0.00";
+            chartArea15.Name = "ChartArea1";
+            this.chartAngle.ChartAreas.Add(chartArea15);
+            legend15.Alignment = System.Drawing.StringAlignment.Center;
+            legend15.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend15.Name = "Legend1";
+            this.chartAngle.Legends.Add(legend15);
             this.chartAngle.Location = new System.Drawing.Point(0, 0);
             this.chartAngle.Name = "chartAngle";
-            series31.ChartArea = "ChartArea1";
-            series31.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series31.Legend = "Legend1";
-            series31.LegendText = "φ, °";
-            series31.Name = "fi";
-            this.chartAngle.Series.Add(series31);
+            series21.ChartArea = "ChartArea1";
+            series21.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series21.Legend = "Legend1";
+            series21.LegendText = "φ, °";
+            series21.Name = "fi";
+            this.chartAngle.Series.Add(series21);
             this.chartAngle.Size = new System.Drawing.Size(978, 432);
             this.chartAngle.TabIndex = 0;
             this.chartAngle.Text = "Зависимость угла от времени";
@@ -548,21 +566,21 @@
             // 
             // chartAngSpeed
             // 
-            chartArea23.AxisX.LabelStyle.Format = "0.00";
-            chartArea23.Name = "ChartArea1";
-            this.chartAngSpeed.ChartAreas.Add(chartArea23);
-            legend23.Alignment = System.Drawing.StringAlignment.Center;
-            legend23.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend23.Name = "Legend1";
-            this.chartAngSpeed.Legends.Add(legend23);
+            chartArea16.AxisX.LabelStyle.Format = "0.00";
+            chartArea16.Name = "ChartArea1";
+            this.chartAngSpeed.ChartAreas.Add(chartArea16);
+            legend16.Alignment = System.Drawing.StringAlignment.Center;
+            legend16.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend16.Name = "Legend1";
+            this.chartAngSpeed.Legends.Add(legend16);
             this.chartAngSpeed.Location = new System.Drawing.Point(0, 0);
             this.chartAngSpeed.Name = "chartAngSpeed";
-            series32.ChartArea = "ChartArea1";
-            series32.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series32.Legend = "Legend1";
-            series32.LegendText = "ω, °/c";
-            series32.Name = "omega";
-            this.chartAngSpeed.Series.Add(series32);
+            series22.ChartArea = "ChartArea1";
+            series22.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series22.Legend = "Legend1";
+            series22.LegendText = "ω, °/c";
+            series22.Name = "omega";
+            this.chartAngSpeed.Series.Add(series22);
             this.chartAngSpeed.Size = new System.Drawing.Size(978, 432);
             this.chartAngSpeed.TabIndex = 0;
             this.chartAngSpeed.Text = "зависимость линейной скорости от времени";
@@ -579,21 +597,21 @@
             // 
             // chartAcceleration
             // 
-            chartArea24.AxisX.LabelStyle.Format = "0.00";
-            chartArea24.Name = "ChartArea1";
-            this.chartAcceleration.ChartAreas.Add(chartArea24);
-            legend24.Alignment = System.Drawing.StringAlignment.Center;
-            legend24.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend24.Name = "Legend1";
-            this.chartAcceleration.Legends.Add(legend24);
+            chartArea17.AxisX.LabelStyle.Format = "0.00";
+            chartArea17.Name = "ChartArea1";
+            this.chartAcceleration.ChartAreas.Add(chartArea17);
+            legend17.Alignment = System.Drawing.StringAlignment.Center;
+            legend17.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend17.Name = "Legend1";
+            this.chartAcceleration.Legends.Add(legend17);
             this.chartAcceleration.Location = new System.Drawing.Point(0, 0);
             this.chartAcceleration.Name = "chartAcceleration";
-            series33.ChartArea = "ChartArea1";
-            series33.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series33.Legend = "Legend1";
-            series33.LegendText = "ε, °/с²";
-            series33.Name = "eps";
-            this.chartAcceleration.Series.Add(series33);
+            series23.ChartArea = "ChartArea1";
+            series23.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series23.Legend = "Legend1";
+            series23.LegendText = "ε, °/с²";
+            series23.Name = "eps";
+            this.chartAcceleration.Series.Add(series23);
             this.chartAcceleration.Size = new System.Drawing.Size(978, 432);
             this.chartAcceleration.TabIndex = 0;
             this.chartAcceleration.Text = "зависимость ускорения от времени";
@@ -610,27 +628,27 @@
             // 
             // chartCoordinates
             // 
-            chartArea25.AxisX.LabelStyle.Format = "0.00";
-            chartArea25.Name = "ChartArea1";
-            this.chartCoordinates.ChartAreas.Add(chartArea25);
-            legend25.Alignment = System.Drawing.StringAlignment.Center;
-            legend25.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend25.Name = "Legend1";
-            this.chartCoordinates.Legends.Add(legend25);
+            chartArea18.AxisX.LabelStyle.Format = "0.00";
+            chartArea18.Name = "ChartArea1";
+            this.chartCoordinates.ChartAreas.Add(chartArea18);
+            legend18.Alignment = System.Drawing.StringAlignment.Center;
+            legend18.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend18.Name = "Legend1";
+            this.chartCoordinates.Legends.Add(legend18);
             this.chartCoordinates.Location = new System.Drawing.Point(0, 0);
             this.chartCoordinates.Name = "chartCoordinates";
-            series34.ChartArea = "ChartArea1";
-            series34.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series34.Legend = "Legend1";
-            series34.LegendText = "x, м";
-            series34.Name = "x";
-            series35.ChartArea = "ChartArea1";
-            series35.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series35.Legend = "Legend1";
-            series35.LegendText = "y, м";
-            series35.Name = "y";
-            this.chartCoordinates.Series.Add(series34);
-            this.chartCoordinates.Series.Add(series35);
+            series24.ChartArea = "ChartArea1";
+            series24.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series24.Legend = "Legend1";
+            series24.LegendText = "x, м";
+            series24.Name = "x";
+            series25.ChartArea = "ChartArea1";
+            series25.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series25.Legend = "Legend1";
+            series25.LegendText = "y, м";
+            series25.Name = "y";
+            this.chartCoordinates.Series.Add(series24);
+            this.chartCoordinates.Series.Add(series25);
             this.chartCoordinates.Size = new System.Drawing.Size(978, 432);
             this.chartCoordinates.TabIndex = 0;
             this.chartCoordinates.Text = "зависимость координат";
@@ -647,33 +665,33 @@
             // 
             // chartSpeed
             // 
-            chartArea26.AxisX.LabelStyle.Format = "0.00";
-            chartArea26.Name = "ChartArea1";
-            this.chartSpeed.ChartAreas.Add(chartArea26);
-            legend26.Alignment = System.Drawing.StringAlignment.Center;
-            legend26.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend26.Name = "Legend1";
-            this.chartSpeed.Legends.Add(legend26);
+            chartArea19.AxisX.LabelStyle.Format = "0.00";
+            chartArea19.Name = "ChartArea1";
+            this.chartSpeed.ChartAreas.Add(chartArea19);
+            legend19.Alignment = System.Drawing.StringAlignment.Center;
+            legend19.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend19.Name = "Legend1";
+            this.chartSpeed.Legends.Add(legend19);
             this.chartSpeed.Location = new System.Drawing.Point(0, 0);
             this.chartSpeed.Name = "chartSpeed";
-            series36.ChartArea = "ChartArea1";
-            series36.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series36.Legend = "Legend1";
-            series36.LegendText = "Vx, м/с";
-            series36.Name = "Vx";
-            series37.ChartArea = "ChartArea1";
-            series37.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series37.Legend = "Legend1";
-            series37.LegendText = "Vy, м/с";
-            series37.Name = "Vy";
-            series38.ChartArea = "ChartArea1";
-            series38.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series38.Legend = "Legend1";
-            series38.LegendText = "V, м/с";
-            series38.Name = "V";
-            this.chartSpeed.Series.Add(series36);
-            this.chartSpeed.Series.Add(series37);
-            this.chartSpeed.Series.Add(series38);
+            series26.ChartArea = "ChartArea1";
+            series26.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series26.Legend = "Legend1";
+            series26.LegendText = "Vx, м/с";
+            series26.Name = "Vx";
+            series27.ChartArea = "ChartArea1";
+            series27.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series27.Legend = "Legend1";
+            series27.LegendText = "Vy, м/с";
+            series27.Name = "Vy";
+            series28.ChartArea = "ChartArea1";
+            series28.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series28.Legend = "Legend1";
+            series28.LegendText = "V, м/с";
+            series28.Name = "V";
+            this.chartSpeed.Series.Add(series26);
+            this.chartSpeed.Series.Add(series27);
+            this.chartSpeed.Series.Add(series28);
             this.chartSpeed.Size = new System.Drawing.Size(978, 432);
             this.chartSpeed.TabIndex = 0;
             this.chartSpeed.Text = "зависимость скоростей";
@@ -690,23 +708,23 @@
             // 
             // chartEnergy
             // 
-            chartArea27.AxisX.IsStartedFromZero = false;
-            chartArea27.AxisX.LabelStyle.Format = "0.00";
-            chartArea27.AxisY.IsStartedFromZero = false;
-            chartArea27.Name = "ChartArea1";
-            this.chartEnergy.ChartAreas.Add(chartArea27);
-            legend27.Alignment = System.Drawing.StringAlignment.Center;
-            legend27.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend27.Name = "Legend1";
-            this.chartEnergy.Legends.Add(legend27);
+            chartArea20.AxisX.IsStartedFromZero = false;
+            chartArea20.AxisX.LabelStyle.Format = "0.00";
+            chartArea20.AxisY.IsStartedFromZero = false;
+            chartArea20.Name = "ChartArea1";
+            this.chartEnergy.ChartAreas.Add(chartArea20);
+            legend20.Alignment = System.Drawing.StringAlignment.Center;
+            legend20.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend20.Name = "Legend1";
+            this.chartEnergy.Legends.Add(legend20);
             this.chartEnergy.Location = new System.Drawing.Point(0, 0);
             this.chartEnergy.Name = "chartEnergy";
-            series39.ChartArea = "ChartArea1";
-            series39.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series39.Legend = "Legend1";
-            series39.LegendText = "E, Дж";
-            series39.Name = "E";
-            this.chartEnergy.Series.Add(series39);
+            series29.ChartArea = "ChartArea1";
+            series29.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series29.Legend = "Legend1";
+            series29.LegendText = "E, Дж";
+            series29.Name = "E";
+            this.chartEnergy.Series.Add(series29);
             this.chartEnergy.Size = new System.Drawing.Size(978, 432);
             this.chartEnergy.TabIndex = 0;
             this.chartEnergy.Text = "Зависимость энергии";
@@ -723,27 +741,28 @@
             // 
             // chartdEnergy
             // 
-            chartArea28.AxisX.LabelStyle.Format = "0.00";
-            chartArea28.Name = "ChartArea1";
-            this.chartdEnergy.ChartAreas.Add(chartArea28);
-            legend28.Alignment = System.Drawing.StringAlignment.Center;
-            legend28.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend28.Name = "Legend1";
-            this.chartdEnergy.Legends.Add(legend28);
+            chartArea21.AxisX.LabelStyle.Format = "0.00";
+            chartArea21.Name = "ChartArea1";
+            this.chartdEnergy.ChartAreas.Add(chartArea21);
+            legend21.Alignment = System.Drawing.StringAlignment.Center;
+            legend21.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend21.Name = "Legend1";
+            this.chartdEnergy.Legends.Add(legend21);
             this.chartdEnergy.Location = new System.Drawing.Point(0, 0);
             this.chartdEnergy.Name = "chartdEnergy";
-            series40.ChartArea = "ChartArea1";
-            series40.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series40.Legend = "Legend1";
-            series40.LegendText = "ΔE, Дж";
-            series40.Name = "dE";
-            this.chartdEnergy.Series.Add(series40);
+            series30.ChartArea = "ChartArea1";
+            series30.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series30.Legend = "Legend1";
+            series30.LegendText = "ΔE, Дж";
+            series30.Name = "dE";
+            this.chartdEnergy.Series.Add(series30);
             this.chartdEnergy.Size = new System.Drawing.Size(978, 432);
             this.chartdEnergy.TabIndex = 1;
             this.chartdEnergy.Text = "Зависимость отклонения энергии";
             // 
             // tabPageAnimation
             // 
+            this.tabPageAnimation.Controls.Add(this.trackBarAnimation);
             this.tabPageAnimation.Controls.Add(this.pictureBoxAnimate);
             this.tabPageAnimation.Location = new System.Drawing.Point(4, 23);
             this.tabPageAnimation.Name = "tabPageAnimation";
@@ -764,15 +783,17 @@
             // 
             this.timerAnimate.Tick += new System.EventHandler(this.timerAnimate_Tick);
             // 
-            // pictureBox1
+            // trackBarAnimation
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(362, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(616, 432);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
+            this.trackBarAnimation.BackColor = System.Drawing.SystemColors.Window;
+            this.trackBarAnimation.LargeChange = 1;
+            this.trackBarAnimation.Location = new System.Drawing.Point(0, 387);
+            this.trackBarAnimation.Maximum = 20;
+            this.trackBarAnimation.Name = "trackBarAnimation";
+            this.trackBarAnimation.Size = new System.Drawing.Size(184, 45);
+            this.trackBarAnimation.TabIndex = 1;
+            this.trackBarAnimation.Value = 1;
+            this.trackBarAnimation.ValueChanged += new System.EventHandler(this.trackBarAnimation_ValueChanged);
             // 
             // Form1
             // 
@@ -785,6 +806,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPageInput.ResumeLayout(false);
             this.tabPageInput.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPageTable.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.tabPageAngle.ResumeLayout(false);
@@ -802,8 +824,9 @@
             this.tabPageDeltaEnergy.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartdEnergy)).EndInit();
             this.tabPageAnimation.ResumeLayout(false);
+            this.tabPageAnimation.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarAnimation)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -865,6 +888,7 @@
         private System.Windows.Forms.PictureBox pictureBoxAnimate;
         private System.Windows.Forms.Timer timerAnimate;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TrackBar trackBarAnimation;
     }
 }
 

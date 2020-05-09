@@ -356,5 +356,29 @@ namespace Kursovaya_rabota
             // переход к следующему моменту
             i++;
         }
+
+        // при смене значения ползунка скорости анимации
+        private void trackBarAnimation_ValueChanged(object sender, EventArgs e)
+        {
+            // если задана скорость = 0
+            if (trackBarAnimation.Value == 0)
+            {
+                // остановить анимацию
+                timerAnimate.Enabled = false;
+            }
+            else
+            {
+                // если число моментов в памяти больше 0
+                if (moments.Count > 0)
+                {
+                    // возобновить анимацию
+                    timerAnimate.Enabled = true;
+                }
+
+                // задать интервал равный значению ползунка
+                timerAnimate.Interval = trackBarAnimation.Value;
+            }
+        }
+
     }
 }
