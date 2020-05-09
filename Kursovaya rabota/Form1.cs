@@ -380,5 +380,97 @@ namespace Kursovaya_rabota
             }
         }
 
+        // при смене занчения проверить на корректность
+        // корректно - закрасить зеленым
+        // не корректно - красным
+        private void textBoxm_TextChanged(object sender, EventArgs e)
+        {
+            double temp;
+
+            // пытаемся распарсить и проверить условия
+            if (!(TryParseDouble(textBoxm.Text, out temp) & temp > 0))
+            {
+                textBoxm.BackColor = Color.FromArgb(255, 76, 91);
+            }
+            else
+            {
+                textBoxm.BackColor = Color.FromArgb(144, 238, 144);
+            }
+        }
+
+        private void textBoxl_TextChanged(object sender, EventArgs e)
+        {
+            double temp;
+
+            // пытаемся распарсить и проверить условия
+            if (!(TryParseDouble(textBoxl.Text, out temp) & temp > 0))
+            {
+                textBoxl.BackColor = Color.FromArgb(255, 76, 91);
+            }
+            else
+            {
+                textBoxl.BackColor = Color.FromArgb(144, 238, 144);
+            }
+        }
+
+        private void textBoxfi_0_TextChanged(object sender, EventArgs e)
+        {
+            double temp;
+
+            // пытаемся распарсить и проверить условия
+            if (!(TryParseDouble(textBoxfi_0.Text, out temp)))
+            {
+                textBoxfi_0.BackColor = Color.FromArgb(255, 76, 91);
+            }
+            else
+            {
+                textBoxfi_0.BackColor = Color.FromArgb(144, 238, 144);
+            }
+        }
+
+        private void textBoxT_TextChanged(object sender, EventArgs e)
+        {
+            double temp;
+
+            // пытаемся распарсить и проверить условия
+            if (!(TryParseDouble(textBoxT.Text, out temp) & temp > 0))
+            {
+                textBoxT.BackColor = Color.FromArgb(255, 76, 91);
+            }
+            else
+            {
+                textBoxT.BackColor = Color.FromArgb(144, 238, 144);
+            }
+        }
+
+        private void textBoxdt_TextChanged(object sender, EventArgs e)
+        {
+            double temp;
+
+            // пытаемся распарсить и проверить условия
+            if (!(TryParseDouble(textBoxdt.Text, out temp) & temp > 0))
+            {
+                textBoxdt.BackColor = Color.FromArgb(255, 76, 91);
+            }
+            else
+            {
+                textBoxdt.BackColor = Color.FromArgb(144, 238, 144);
+            }
+        }
+
+        private void textBoxdTr_TextChanged(object sender, EventArgs e)
+        {
+            double temp;
+
+            // пытаемся распарсить и проверить условия
+            if (!(TryParseDouble(textBoxdTr.Text, out temp) & temp > 0))
+            {
+                textBoxdTr.BackColor = Color.FromArgb(255, 76, 91);
+            }
+            else
+            {
+                textBoxdTr.BackColor = Color.FromArgb(144, 238, 144);
+            }
+        }
     }
 }
