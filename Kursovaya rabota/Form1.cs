@@ -7,20 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Globalization;
-using System.IO;
+using System.Globalization; // для независимости от локализации системы
+using System.IO; // для сохранения в файлы
 
 namespace Kursovaya_rabota
 {
     public partial class Form1 : Form
     {
         // для независимости от десятичного разделителя
-        static private CultureInfo _fileCulture = CultureInfo.GetCultureInfo("ru-RU");
-        static private NumberStyles _numberStyles = NumberStyles.Float | NumberStyles.AllowThousands;
-        
         static private bool TryParseDouble(string str, out double val)
         {
-            return Double.TryParse(str.Replace('.', ','), _numberStyles, _fileCulture, out val);
+            return Double.TryParse(str.Replace('.', ','), 
+                NumberStyles.Float | NumberStyles.AllowThousands, 
+                CultureInfo.GetCultureInfo("ru-RU"), out val);
         }
 
         Graphics animate; // для анимации
@@ -42,20 +41,29 @@ namespace Kursovaya_rabota
         // класс момента времени, содержащий все параметры системы
         class Moment
         {
-            // текущие время, угол, угловая скорость, угловое ускорение,
-            // абсцисса и ординаты, проекции скорости на оси, скорость,
-            // энергия, отклонение энергии от начальной
-            public double t, fi, omega, eps, x, y, Vx, Vy, V, E, dE;
+            public double t; // текущее время
+            public double fi; // угол
+            public double omega; // угловая скорость
+            public double eps; // угловое ускорение
+
+            public double x; // абсцисса
+            public double y; // ордината
+            public double Vx; // проекция скорости на Ox
+            public double Vy; // проекция скорости на Oy
+            public double V; // скорость
+
+            public double E; // энергия
+            public double dE; // отклонение энергии от начальной
 
             // задание параметров и создание первого момента из них 
             public static Moment FirstMoment(Form1 form)
             {
                 // пытаемся распарсить все параметры
-                if (!(TryParseDouble(form.textBoxm.Text, out m) &
-                    TryParseDouble(form.textBoxl.Text, out l) &
-                    TryParseDouble(form.textBoxfi_0.Text, out fi_0) &
-                    TryParseDouble(form.textBoxT.Text, out T) &
-                    TryParseDouble(form.textBoxdt.Text, out dt) &
+                if (!(TryParseDouble(form.textBoxm.Text, out m) &&
+                    TryParseDouble(form.textBoxl.Text, out l) &&
+                    TryParseDouble(form.textBoxfi_0.Text, out fi_0) &&
+                    TryParseDouble(form.textBoxT.Text, out T) &&
+                    TryParseDouble(form.textBoxdt.Text, out dt) &&
                     TryParseDouble(form.textBoxdTr.Text, out dT)))
                 {
                     // если неудается распарсить, вывести сообщение об ошибке и вернуть null
@@ -67,7 +75,7 @@ namespace Kursovaya_rabota
                 fi_0 *= Math.PI / 180;
 
                 // проверяем введенные параметры на адекватность
-                if (!(m > 0 & l > 0 & T > 0 & dt > 0 & dT > 0 & T > dT & dT > dt))
+                if (!(m > 0 && l > 0 && T > 0 && dt > 0 && dT > 0 && T > dT && dT > dt))
                 {
                     // если неадекватные, вывести сообщение об ошибке и вернуть null
                     MessageBox.Show("Введенные данные некорректны!");
@@ -112,7 +120,7 @@ namespace Kursovaya_rabota
                 // возвращаемый момент
                 Moment newMoment = new Moment();
 
-                // увеличиваем время на период диср=кретизации
+                // увеличиваем время на период дискретизации
                 newMoment.t = prev.t + dt;
 
                 // рассчитываем угловые характеристики
@@ -144,17 +152,17 @@ namespace Kursovaya_rabota
         {
             // вывод в таблицу
             dataGridView.Rows.Add(
-                Math.Round(moment.t, 4),
-                Math.Round(moment.fi * 180 / Math.PI, 4),
-                Math.Round(moment.omega * 180 / Math.PI, 4),
-                Math.Round(moment.eps * 180 / Math.PI, 4),
-                Math.Round(moment.x, 4),
-                Math.Round(moment.y, 4),
-                Math.Round(moment.Vx, 4),
-                Math.Round(moment.Vy, 4),
-                Math.Round(moment.V, 4),
-                Math.Round(moment.E, 4),
-                Math.Round(moment.dE, 4));
+                Math.Round(moment.t, 4), // время
+                Math.Round(moment.fi * 180 / Math.PI, 4), // угол
+                Math.Round(moment.omega * 180 / Math.PI, 4), // угловая скорость
+                Math.Round(moment.eps * 180 / Math.PI, 4), // угловое ускорение
+                Math.Round(moment.x, 4), // абсцисса
+                Math.Round(moment.y, 4), // ордината
+                Math.Round(moment.Vx, 4), // проекция скорости на ось абсцисс
+                Math.Round(moment.Vy, 4), // проекция скорости на ось ординат
+                Math.Round(moment.V, 4), // скорость
+                Math.Round(moment.E, 4), // энергия
+                Math.Round(moment.dE, 4)); // отклонение энергии от начальной
 
             // вывод в графики
             chartAngle.Series[0].Points.AddXY(moment.t, moment.fi * 180 / Math.PI); // угол
@@ -177,31 +185,33 @@ namespace Kursovaya_rabota
             moments.Add(moment); // сохранение в лист
         }
 
-
         // функция инициализации формы
         public Form1()
         {
             InitializeComponent();
 
-            pictureBoxAnimate.Image = new Bitmap(pictureBoxAnimate.Width, pictureBoxAnimate.Height); // создание изобржения и помещение его в пикчербокс
-            animate = Graphics.FromImage(pictureBoxAnimate.Image);//создание графики из изображения
+            // создание изобржения и помещение его в пикчербокс
+            pictureBoxAnimate.Image = new Bitmap(pictureBoxAnimate.Width, pictureBoxAnimate.Height);
+            //создание графики из изображения
+            animate = Graphics.FromImage(pictureBoxAnimate.Image); 
         }
 
-        // по клику на кнопку рассчета
+        // при клике на кнопку "Рассчитать"
         private void button_rasschitat_Click(object sender, EventArgs e)
         {
             // очистить все
-            dataGridView.Rows.Clear();
-            chartAngle.Series[0].Points.Clear();
-            chartAngSpeed.Series[0].Points.Clear();
-            chartAcceleration.Series[0].Points.Clear();
-            chartCoordinates.Series[0].Points.Clear();
-            chartCoordinates.Series[1].Points.Clear();
-            chartSpeed.Series[0].Points.Clear();
-            chartSpeed.Series[1].Points.Clear();
-            chartSpeed.Series[2].Points.Clear();
-            chartEnergy.Series[0].Points.Clear();
-            chartdEnergy.Series[0].Points.Clear();
+            moments.Clear(); // массив моментов
+            dataGridView.Rows.Clear(); // таблица
+            chartAngle.Series[0].Points.Clear(); // график угла
+            chartAngSpeed.Series[0].Points.Clear(); // график угловой скорости
+            chartAcceleration.Series[0].Points.Clear(); // график углового ускорения
+            chartCoordinates.Series[0].Points.Clear(); // график абсциссы
+            chartCoordinates.Series[1].Points.Clear(); // график ординаты
+            chartSpeed.Series[0].Points.Clear(); // график проекции скорости на Ox
+            chartSpeed.Series[1].Points.Clear(); // график проекции скорости на Oy
+            chartSpeed.Series[2].Points.Clear(); // график скорости
+            chartEnergy.Series[0].Points.Clear(); // график энергии
+            chartdEnergy.Series[0].Points.Clear(); // график отклонения энергии
 
             // считать параметры
             Moment temp = Moment.FirstMoment(this);
@@ -234,10 +244,11 @@ namespace Kursovaya_rabota
             // сообщение о завершении
             MessageBox.Show("Рассчет завершен!");
 
+            // активация анимации
             timerAnimate.Enabled = true;
-            timerAnimate.Interval = (int)(dT * 10000) + 1;
         }
 
+        // при клике на кнопку "Сохранить"
         private void button_sohranit_Click(object sender, EventArgs e)
         {
             // создание папки для отчета
@@ -259,9 +270,10 @@ namespace Kursovaya_rabota
             chartdEnergy.SaveImage("Отчет\\отклонение энергии от начальной.jpeg",
                     System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Jpeg);
 
-            //создание файла с результатами
+            // создание файла с результатами
             StreamWriter sw = new StreamWriter("Отчет\\результаты моделирования.csv", false, Encoding.UTF8);
-
+            
+            // ! для русского Excel. В нормальном .csv разделитель - запятая.
             // запись заголовков
             sw.WriteLine("t, с; φ, °; ω, °/с; ε, °/с²; x, м; y, м; Vx, м/с; Vy,м/с; V, м/с; E, Дж; dE, Дж");
 
@@ -281,9 +293,8 @@ namespace Kursovaya_rabota
                 Math.Round(i.dE, 4));
             }
 
-            // закрытие файла
+            // закрытие файла с результатами
             sw.Close();
-
 
             // создание файла с отчетом
             sw = new StreamWriter("Отчет\\отчет.txt");
@@ -299,7 +310,7 @@ namespace Kursovaya_rabota
                 "Период дискретизации: " + dt + " с\n" +
                 "Период вывода в отчет: " + dT + " с\n\n" +
                 "Результаты моделирования\n\n" +
-                "t, с; φ, °; ω, °/с; ε, °/с²; x, м; y, м; Vx, м/с; Vy,м/с; V, м/с; E, Дж; dE, Дж");
+                "t, с\tφ, °\tω, °/с\tε, °/с²\tx, м\ty, м\tVx, м/с\tVy,м/с\tV, м/с\tE, Дж\tdE, Дж");
 
             // запись всех моментов
             foreach (var i in moments)
@@ -317,11 +328,14 @@ namespace Kursovaya_rabota
                 Math.Round(i.dE, 4));
             }
             
-            // закрытие файла
+            // закрытие файла с отчетом
             sw.Close();
 
             // сообщение о завершении
             MessageBox.Show("Отчет сохранен!");
+
+            // открытие папки с отчетом
+            System.Diagnostics.Process.Start("Отчет");
         }
 
         // анимирование
@@ -334,18 +348,18 @@ namespace Kursovaya_rabota
                 i = 1;
             }
 
-            // очистиить рисунок
+            // очистить рисунок
             animate.Clear(Color.White);
 
             // коэффициент масштабирования
-            double k = pictureBoxAnimate.Height / l / 2;
+            double k = pictureBoxAnimate.Height / l / 2.5;
 
             // отрисовка маятника
             animate.DrawLine(new Pen(Color.Black, 2),
                 (float)(pictureBoxAnimate.Width / 2), (float)(k * l), 
                 (float)(pictureBoxAnimate.Width / 2 + k * moments[i].x), (float)(k * (2*l - moments[i].y)));
 
-            // отрисовка массы
+            // отрисовка круга на конце маятника
             animate.FillEllipse(Brushes.Red, 
                 (float)(pictureBoxAnimate.Width / 2 + k * moments[i].x) - 4, (float)(k * (2 * l - moments[i].y) - 4),
                 8, 8);
@@ -375,8 +389,8 @@ namespace Kursovaya_rabota
                     timerAnimate.Enabled = true;
                 }
 
-                // задать интервал равный значению ползунка
-                timerAnimate.Interval = trackBarAnimation.Value;
+                // задать интервал
+                timerAnimate.Interval = (int)Math.Pow(10, (double)(20 - trackBarAnimation.Value)/10);
             }
         }
 
@@ -388,7 +402,7 @@ namespace Kursovaya_rabota
             double temp;
 
             // пытаемся распарсить и проверить условия
-            if (!(TryParseDouble(textBoxm.Text, out temp) & temp > 0))
+            if (!(TryParseDouble(textBoxm.Text, out temp) && temp > 0))
             {
                 textBoxm.BackColor = Color.FromArgb(255, 76, 91);
             }
@@ -403,7 +417,7 @@ namespace Kursovaya_rabota
             double temp;
 
             // пытаемся распарсить и проверить условия
-            if (!(TryParseDouble(textBoxl.Text, out temp) & temp > 0))
+            if (!(TryParseDouble(textBoxl.Text, out temp) && temp > 0))
             {
                 textBoxl.BackColor = Color.FromArgb(255, 76, 91);
             }
@@ -433,7 +447,7 @@ namespace Kursovaya_rabota
             double temp;
 
             // пытаемся распарсить и проверить условия
-            if (!(TryParseDouble(textBoxT.Text, out temp) & temp > 0))
+            if (!(TryParseDouble(textBoxT.Text, out temp) && temp > 0))
             {
                 textBoxT.BackColor = Color.FromArgb(255, 76, 91);
             }
@@ -448,7 +462,7 @@ namespace Kursovaya_rabota
             double temp;
 
             // пытаемся распарсить и проверить условия
-            if (!(TryParseDouble(textBoxdt.Text, out temp) & temp > 0))
+            if (!(TryParseDouble(textBoxdt.Text, out temp) && temp > 0))
             {
                 textBoxdt.BackColor = Color.FromArgb(255, 76, 91);
             }
@@ -463,7 +477,7 @@ namespace Kursovaya_rabota
             double temp;
 
             // пытаемся распарсить и проверить условия
-            if (!(TryParseDouble(textBoxdTr.Text, out temp) & temp > 0))
+            if (!(TryParseDouble(textBoxdTr.Text, out temp) && temp > 0))
             {
                 textBoxdTr.BackColor = Color.FromArgb(255, 76, 91);
             }

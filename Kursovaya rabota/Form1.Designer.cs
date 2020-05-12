@@ -30,52 +30,52 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series21 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea16 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend16 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series22 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series23 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series24 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series25 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea19 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend19 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series26 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series27 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series28 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea20 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend20 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series29 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea21 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend21 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series30 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageInput = new System.Windows.Forms.TabPage();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button_sohranit = new System.Windows.Forms.Button();
-            this.button_rasschitat = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            this.buttonSave = new System.Windows.Forms.Button();
+            this.buttonCalculate = new System.Windows.Forms.Button();
+            this.labelS2 = new System.Windows.Forms.Label();
+            this.labelS3 = new System.Windows.Forms.Label();
+            this.labelDT2 = new System.Windows.Forms.Label();
+            this.labelDT = new System.Windows.Forms.Label();
+            this.labelS1 = new System.Windows.Forms.Label();
+            this.labelT = new System.Windows.Forms.Label();
+            this.labelModelParam = new System.Windows.Forms.Label();
             this.textBoxdTr = new System.Windows.Forms.TextBox();
             this.textBoxdt = new System.Windows.Forms.TextBox();
             this.textBoxT = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelDeg = new System.Windows.Forms.Label();
+            this.labelFI_0 = new System.Windows.Forms.Label();
+            this.labelV = new System.Windows.Forms.Label();
+            this.labelL = new System.Windows.Forms.Label();
+            this.labelKG = new System.Windows.Forms.Label();
+            this.labelM = new System.Windows.Forms.Label();
+            this.labelPhisParam = new System.Windows.Forms.Label();
             this.textBoxfi_0 = new System.Windows.Forms.TextBox();
             this.textBoxl = new System.Windows.Forms.TextBox();
             this.textBoxm = new System.Windows.Forms.TextBox();
@@ -107,9 +107,10 @@
             this.tabPageDeltaEnergy = new System.Windows.Forms.TabPage();
             this.chartdEnergy = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tabPageAnimation = new System.Windows.Forms.TabPage();
+            this.trackBarAnimation = new System.Windows.Forms.TrackBar();
             this.pictureBoxAnimate = new System.Windows.Forms.PictureBox();
             this.timerAnimate = new System.Windows.Forms.Timer(this.components);
-            this.trackBarAnimation = new System.Windows.Forms.TrackBar();
+            this.labelSpeedOfAnimation = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPageInput.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -130,8 +131,8 @@
             this.tabPageDeltaEnergy.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartdEnergy)).BeginInit();
             this.tabPageAnimation.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarAnimation)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimate)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -156,25 +157,25 @@
             // tabPageInput
             // 
             this.tabPageInput.Controls.Add(this.pictureBox1);
-            this.tabPageInput.Controls.Add(this.button_sohranit);
-            this.tabPageInput.Controls.Add(this.button_rasschitat);
-            this.tabPageInput.Controls.Add(this.label16);
-            this.tabPageInput.Controls.Add(this.label15);
-            this.tabPageInput.Controls.Add(this.label);
-            this.tabPageInput.Controls.Add(this.label11);
-            this.tabPageInput.Controls.Add(this.label12);
-            this.tabPageInput.Controls.Add(this.label13);
-            this.tabPageInput.Controls.Add(this.label14);
+            this.tabPageInput.Controls.Add(this.buttonSave);
+            this.tabPageInput.Controls.Add(this.buttonCalculate);
+            this.tabPageInput.Controls.Add(this.labelS2);
+            this.tabPageInput.Controls.Add(this.labelS3);
+            this.tabPageInput.Controls.Add(this.labelDT2);
+            this.tabPageInput.Controls.Add(this.labelDT);
+            this.tabPageInput.Controls.Add(this.labelS1);
+            this.tabPageInput.Controls.Add(this.labelT);
+            this.tabPageInput.Controls.Add(this.labelModelParam);
             this.tabPageInput.Controls.Add(this.textBoxdTr);
             this.tabPageInput.Controls.Add(this.textBoxdt);
             this.tabPageInput.Controls.Add(this.textBoxT);
-            this.tabPageInput.Controls.Add(this.label6);
-            this.tabPageInput.Controls.Add(this.label7);
-            this.tabPageInput.Controls.Add(this.label8);
-            this.tabPageInput.Controls.Add(this.label4);
-            this.tabPageInput.Controls.Add(this.label3);
-            this.tabPageInput.Controls.Add(this.label2);
-            this.tabPageInput.Controls.Add(this.label1);
+            this.tabPageInput.Controls.Add(this.labelDeg);
+            this.tabPageInput.Controls.Add(this.labelFI_0);
+            this.tabPageInput.Controls.Add(this.labelV);
+            this.tabPageInput.Controls.Add(this.labelL);
+            this.tabPageInput.Controls.Add(this.labelKG);
+            this.tabPageInput.Controls.Add(this.labelM);
+            this.tabPageInput.Controls.Add(this.labelPhisParam);
             this.tabPageInput.Controls.Add(this.textBoxfi_0);
             this.tabPageInput.Controls.Add(this.textBoxl);
             this.tabPageInput.Controls.Add(this.textBoxm);
@@ -183,7 +184,7 @@
             this.tabPageInput.Padding = new System.Windows.Forms.Padding(3);
             this.tabPageInput.Size = new System.Drawing.Size(978, 432);
             this.tabPageInput.TabIndex = 0;
-            this.tabPageInput.Text = "ввод данных";
+            this.tabPageInput.Text = "Ввод данных";
             this.tabPageInput.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
@@ -196,100 +197,100 @@
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
             // 
-            // button_sohranit
+            // buttonSave
             // 
-            this.button_sohranit.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_sohranit.Location = new System.Drawing.Point(213, 363);
-            this.button_sohranit.Name = "button_sohranit";
-            this.button_sohranit.Size = new System.Drawing.Size(104, 23);
-            this.button_sohranit.TabIndex = 27;
-            this.button_sohranit.Text = "сохранить";
-            this.button_sohranit.UseVisualStyleBackColor = true;
-            this.button_sohranit.Click += new System.EventHandler(this.button_sohranit_Click);
+            this.buttonSave.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSave.Location = new System.Drawing.Point(186, 363);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(143, 23);
+            this.buttonSave.TabIndex = 27;
+            this.buttonSave.Text = "Сохранить отчет";
+            this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.button_sohranit_Click);
             // 
-            // button_rasschitat
+            // buttonCalculate
             // 
-            this.button_rasschitat.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_rasschitat.Location = new System.Drawing.Point(58, 363);
-            this.button_rasschitat.Name = "button_rasschitat";
-            this.button_rasschitat.Size = new System.Drawing.Size(104, 23);
-            this.button_rasschitat.TabIndex = 26;
-            this.button_rasschitat.Text = "рассчитать";
-            this.button_rasschitat.UseVisualStyleBackColor = true;
-            this.button_rasschitat.Click += new System.EventHandler(this.button_rasschitat_Click);
+            this.buttonCalculate.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonCalculate.Location = new System.Drawing.Point(58, 363);
+            this.buttonCalculate.Name = "buttonCalculate";
+            this.buttonCalculate.Size = new System.Drawing.Size(104, 23);
+            this.buttonCalculate.TabIndex = 26;
+            this.buttonCalculate.Text = "Рассчитать";
+            this.buttonCalculate.UseVisualStyleBackColor = true;
+            this.buttonCalculate.Click += new System.EventHandler(this.button_rasschitat_Click);
             // 
-            // label16
+            // labelS2
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label16.Location = new System.Drawing.Point(323, 270);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(15, 16);
-            this.label16.TabIndex = 24;
-            this.label16.Text = "с";
+            this.labelS2.AutoSize = true;
+            this.labelS2.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelS2.Location = new System.Drawing.Point(323, 270);
+            this.labelS2.Name = "labelS2";
+            this.labelS2.Size = new System.Drawing.Size(15, 16);
+            this.labelS2.TabIndex = 24;
+            this.labelS2.Text = "с";
             // 
-            // label15
+            // labelS3
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.Location = new System.Drawing.Point(323, 307);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(15, 16);
-            this.label15.TabIndex = 23;
-            this.label15.Text = "с";
+            this.labelS3.AutoSize = true;
+            this.labelS3.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelS3.Location = new System.Drawing.Point(323, 307);
+            this.labelS3.Name = "labelS3";
+            this.labelS3.Size = new System.Drawing.Size(15, 16);
+            this.labelS3.TabIndex = 23;
+            this.labelS3.Text = "с";
             // 
-            // label
+            // labelDT2
             // 
-            this.label.AutoSize = true;
-            this.label.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label.Location = new System.Drawing.Point(37, 305);
-            this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(177, 18);
-            this.label.TabIndex = 21;
-            this.label.Text = "период вывода в отчет";
+            this.labelDT2.AutoSize = true;
+            this.labelDT2.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDT2.Location = new System.Drawing.Point(37, 305);
+            this.labelDT2.Name = "labelDT2";
+            this.labelDT2.Size = new System.Drawing.Size(177, 18);
+            this.labelDT2.TabIndex = 21;
+            this.labelDT2.Text = "период вывода в отчет";
             // 
-            // label11
+            // labelDT
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(37, 268);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(169, 18);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "период дискретизации";
+            this.labelDT.AutoSize = true;
+            this.labelDT.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDT.Location = new System.Drawing.Point(37, 268);
+            this.labelDT.Name = "labelDT";
+            this.labelDT.Size = new System.Drawing.Size(169, 18);
+            this.labelDT.TabIndex = 19;
+            this.labelDT.Text = "период дискретизации";
             // 
-            // label12
+            // labelS1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(323, 237);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(15, 16);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "с";
+            this.labelS1.AutoSize = true;
+            this.labelS1.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelS1.Location = new System.Drawing.Point(323, 237);
+            this.labelS1.Name = "labelS1";
+            this.labelS1.Size = new System.Drawing.Size(15, 16);
+            this.labelS1.TabIndex = 18;
+            this.labelS1.Text = "с";
             // 
-            // label13
+            // labelT
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(37, 235);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(151, 18);
-            this.label13.TabIndex = 17;
-            this.label13.Text = "продолжительность";
+            this.labelT.AutoSize = true;
+            this.labelT.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelT.ForeColor = System.Drawing.Color.Black;
+            this.labelT.Location = new System.Drawing.Point(37, 235);
+            this.labelT.Name = "labelT";
+            this.labelT.Size = new System.Drawing.Size(151, 18);
+            this.labelT.TabIndex = 17;
+            this.labelT.Text = "продолжительность";
             // 
-            // label14
+            // labelModelParam
             // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.LightCyan;
-            this.label14.Font = new System.Drawing.Font("Modern No. 20", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label14.Location = new System.Drawing.Point(56, 195);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(261, 23);
-            this.label14.TabIndex = 16;
-            this.label14.Text = "Параметры моделирования";
+            this.labelModelParam.AutoSize = true;
+            this.labelModelParam.BackColor = System.Drawing.Color.LightCyan;
+            this.labelModelParam.Font = new System.Drawing.Font("Modern No. 20", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelModelParam.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.labelModelParam.Location = new System.Drawing.Point(56, 195);
+            this.labelModelParam.Name = "labelModelParam";
+            this.labelModelParam.Size = new System.Drawing.Size(261, 23);
+            this.labelModelParam.TabIndex = 16;
+            this.labelModelParam.Text = "Параметры моделирования";
             // 
             // textBoxdTr
             // 
@@ -322,78 +323,78 @@
             this.textBoxT.Text = "10";
             this.textBoxT.TextChanged += new System.EventHandler(this.textBoxT_TextChanged);
             // 
-            // label6
+            // labelDeg
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(324, 137);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(14, 16);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "°";
+            this.labelDeg.AutoSize = true;
+            this.labelDeg.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDeg.Location = new System.Drawing.Point(324, 137);
+            this.labelDeg.Name = "labelDeg";
+            this.labelDeg.Size = new System.Drawing.Size(14, 16);
+            this.labelDeg.TabIndex = 12;
+            this.labelDeg.Text = "°";
             // 
-            // label7
+            // labelFI_0
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(41, 135);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(121, 18);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "начальный угол";
+            this.labelFI_0.AutoSize = true;
+            this.labelFI_0.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelFI_0.Location = new System.Drawing.Point(41, 135);
+            this.labelFI_0.Name = "labelFI_0";
+            this.labelFI_0.Size = new System.Drawing.Size(121, 18);
+            this.labelFI_0.TabIndex = 11;
+            this.labelFI_0.Text = "начальный угол";
             // 
-            // label8
+            // labelV
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(324, 102);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(18, 16);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "м";
+            this.labelV.AutoSize = true;
+            this.labelV.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelV.Location = new System.Drawing.Point(324, 102);
+            this.labelV.Name = "labelV";
+            this.labelV.Size = new System.Drawing.Size(18, 16);
+            this.labelV.TabIndex = 10;
+            this.labelV.Text = "м";
             // 
-            // label4
+            // labelL
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(41, 100);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 18);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "длина нити";
+            this.labelL.AutoSize = true;
+            this.labelL.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelL.Location = new System.Drawing.Point(41, 100);
+            this.labelL.Name = "labelL";
+            this.labelL.Size = new System.Drawing.Size(85, 18);
+            this.labelL.TabIndex = 9;
+            this.labelL.Text = "длина нити";
             // 
-            // label3
+            // labelKG
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(323, 67);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 16);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "кг";
+            this.labelKG.AutoSize = true;
+            this.labelKG.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelKG.Location = new System.Drawing.Point(323, 67);
+            this.labelKG.Name = "labelKG";
+            this.labelKG.Size = new System.Drawing.Size(19, 16);
+            this.labelKG.TabIndex = 8;
+            this.labelKG.Text = "кг";
             // 
-            // label2
+            // labelM
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(41, 65);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 18);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "масса груза";
+            this.labelM.AutoSize = true;
+            this.labelM.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelM.ForeColor = System.Drawing.Color.Black;
+            this.labelM.Location = new System.Drawing.Point(41, 65);
+            this.labelM.Name = "labelM";
+            this.labelM.Size = new System.Drawing.Size(95, 18);
+            this.labelM.TabIndex = 7;
+            this.labelM.Text = "масса груза";
             // 
-            // label1
+            // labelPhisParam
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.LightCyan;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.label1.Location = new System.Drawing.Point(56, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(261, 23);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Физические характеристики";
+            this.labelPhisParam.AutoSize = true;
+            this.labelPhisParam.BackColor = System.Drawing.Color.LightCyan;
+            this.labelPhisParam.Font = new System.Drawing.Font("Modern No. 20", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPhisParam.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.labelPhisParam.Location = new System.Drawing.Point(56, 27);
+            this.labelPhisParam.Name = "labelPhisParam";
+            this.labelPhisParam.Size = new System.Drawing.Size(261, 23);
+            this.labelPhisParam.TabIndex = 6;
+            this.labelPhisParam.Text = "Физические характеристики";
             // 
             // textBoxfi_0
             // 
@@ -434,7 +435,7 @@
             this.tabPageTable.Padding = new System.Windows.Forms.Padding(3);
             this.tabPageTable.Size = new System.Drawing.Size(978, 432);
             this.tabPageTable.TabIndex = 1;
-            this.tabPageTable.Text = "таблица";
+            this.tabPageTable.Text = "Таблица";
             this.tabPageTable.UseVisualStyleBackColor = true;
             // 
             // dataGridView
@@ -530,26 +531,26 @@
             this.tabPageAngle.Name = "tabPageAngle";
             this.tabPageAngle.Size = new System.Drawing.Size(978, 432);
             this.tabPageAngle.TabIndex = 2;
-            this.tabPageAngle.Text = "угол";
+            this.tabPageAngle.Text = "Угол";
             this.tabPageAngle.UseVisualStyleBackColor = true;
             // 
             // chartAngle
             // 
-            chartArea15.AxisX.LabelStyle.Format = "0.00";
-            chartArea15.Name = "ChartArea1";
-            this.chartAngle.ChartAreas.Add(chartArea15);
-            legend15.Alignment = System.Drawing.StringAlignment.Center;
-            legend15.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend15.Name = "Legend1";
-            this.chartAngle.Legends.Add(legend15);
+            chartArea1.AxisX.LabelStyle.Format = "0.00";
+            chartArea1.Name = "ChartArea1";
+            this.chartAngle.ChartAreas.Add(chartArea1);
+            legend1.Alignment = System.Drawing.StringAlignment.Center;
+            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend1.Name = "Legend1";
+            this.chartAngle.Legends.Add(legend1);
             this.chartAngle.Location = new System.Drawing.Point(0, 0);
             this.chartAngle.Name = "chartAngle";
-            series21.ChartArea = "ChartArea1";
-            series21.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series21.Legend = "Legend1";
-            series21.LegendText = "φ, °";
-            series21.Name = "fi";
-            this.chartAngle.Series.Add(series21);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Legend = "Legend1";
+            series1.LegendText = "φ, °";
+            series1.Name = "fi";
+            this.chartAngle.Series.Add(series1);
             this.chartAngle.Size = new System.Drawing.Size(978, 432);
             this.chartAngle.TabIndex = 0;
             this.chartAngle.Text = "Зависимость угла от времени";
@@ -561,26 +562,26 @@
             this.tabPageAngSpeed.Name = "tabPageAngSpeed";
             this.tabPageAngSpeed.Size = new System.Drawing.Size(978, 432);
             this.tabPageAngSpeed.TabIndex = 3;
-            this.tabPageAngSpeed.Text = "угловая скорость";
+            this.tabPageAngSpeed.Text = "Угловая скорость";
             this.tabPageAngSpeed.UseVisualStyleBackColor = true;
             // 
             // chartAngSpeed
             // 
-            chartArea16.AxisX.LabelStyle.Format = "0.00";
-            chartArea16.Name = "ChartArea1";
-            this.chartAngSpeed.ChartAreas.Add(chartArea16);
-            legend16.Alignment = System.Drawing.StringAlignment.Center;
-            legend16.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend16.Name = "Legend1";
-            this.chartAngSpeed.Legends.Add(legend16);
+            chartArea2.AxisX.LabelStyle.Format = "0.00";
+            chartArea2.Name = "ChartArea1";
+            this.chartAngSpeed.ChartAreas.Add(chartArea2);
+            legend2.Alignment = System.Drawing.StringAlignment.Center;
+            legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend2.Name = "Legend1";
+            this.chartAngSpeed.Legends.Add(legend2);
             this.chartAngSpeed.Location = new System.Drawing.Point(0, 0);
             this.chartAngSpeed.Name = "chartAngSpeed";
-            series22.ChartArea = "ChartArea1";
-            series22.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series22.Legend = "Legend1";
-            series22.LegendText = "ω, °/c";
-            series22.Name = "omega";
-            this.chartAngSpeed.Series.Add(series22);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Legend = "Legend1";
+            series2.LegendText = "ω, °/c";
+            series2.Name = "omega";
+            this.chartAngSpeed.Series.Add(series2);
             this.chartAngSpeed.Size = new System.Drawing.Size(978, 432);
             this.chartAngSpeed.TabIndex = 0;
             this.chartAngSpeed.Text = "зависимость линейной скорости от времени";
@@ -592,26 +593,26 @@
             this.tabPageAcceleration.Name = "tabPageAcceleration";
             this.tabPageAcceleration.Size = new System.Drawing.Size(978, 432);
             this.tabPageAcceleration.TabIndex = 4;
-            this.tabPageAcceleration.Text = "ускорение";
+            this.tabPageAcceleration.Text = "Ускорение";
             this.tabPageAcceleration.UseVisualStyleBackColor = true;
             // 
             // chartAcceleration
             // 
-            chartArea17.AxisX.LabelStyle.Format = "0.00";
-            chartArea17.Name = "ChartArea1";
-            this.chartAcceleration.ChartAreas.Add(chartArea17);
-            legend17.Alignment = System.Drawing.StringAlignment.Center;
-            legend17.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend17.Name = "Legend1";
-            this.chartAcceleration.Legends.Add(legend17);
+            chartArea3.AxisX.LabelStyle.Format = "0.00";
+            chartArea3.Name = "ChartArea1";
+            this.chartAcceleration.ChartAreas.Add(chartArea3);
+            legend3.Alignment = System.Drawing.StringAlignment.Center;
+            legend3.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend3.Name = "Legend1";
+            this.chartAcceleration.Legends.Add(legend3);
             this.chartAcceleration.Location = new System.Drawing.Point(0, 0);
             this.chartAcceleration.Name = "chartAcceleration";
-            series23.ChartArea = "ChartArea1";
-            series23.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series23.Legend = "Legend1";
-            series23.LegendText = "ε, °/с²";
-            series23.Name = "eps";
-            this.chartAcceleration.Series.Add(series23);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Legend = "Legend1";
+            series3.LegendText = "ε, °/с²";
+            series3.Name = "eps";
+            this.chartAcceleration.Series.Add(series3);
             this.chartAcceleration.Size = new System.Drawing.Size(978, 432);
             this.chartAcceleration.TabIndex = 0;
             this.chartAcceleration.Text = "зависимость ускорения от времени";
@@ -623,32 +624,32 @@
             this.tabPageCoordinates.Name = "tabPageCoordinates";
             this.tabPageCoordinates.Size = new System.Drawing.Size(978, 432);
             this.tabPageCoordinates.TabIndex = 5;
-            this.tabPageCoordinates.Text = "координаты";
+            this.tabPageCoordinates.Text = "Координаты";
             this.tabPageCoordinates.UseVisualStyleBackColor = true;
             // 
             // chartCoordinates
             // 
-            chartArea18.AxisX.LabelStyle.Format = "0.00";
-            chartArea18.Name = "ChartArea1";
-            this.chartCoordinates.ChartAreas.Add(chartArea18);
-            legend18.Alignment = System.Drawing.StringAlignment.Center;
-            legend18.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend18.Name = "Legend1";
-            this.chartCoordinates.Legends.Add(legend18);
+            chartArea4.AxisX.LabelStyle.Format = "0.00";
+            chartArea4.Name = "ChartArea1";
+            this.chartCoordinates.ChartAreas.Add(chartArea4);
+            legend4.Alignment = System.Drawing.StringAlignment.Center;
+            legend4.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend4.Name = "Legend1";
+            this.chartCoordinates.Legends.Add(legend4);
             this.chartCoordinates.Location = new System.Drawing.Point(0, 0);
             this.chartCoordinates.Name = "chartCoordinates";
-            series24.ChartArea = "ChartArea1";
-            series24.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series24.Legend = "Legend1";
-            series24.LegendText = "x, м";
-            series24.Name = "x";
-            series25.ChartArea = "ChartArea1";
-            series25.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series25.Legend = "Legend1";
-            series25.LegendText = "y, м";
-            series25.Name = "y";
-            this.chartCoordinates.Series.Add(series24);
-            this.chartCoordinates.Series.Add(series25);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.Legend = "Legend1";
+            series4.LegendText = "x, м";
+            series4.Name = "x";
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series5.Legend = "Legend1";
+            series5.LegendText = "y, м";
+            series5.Name = "y";
+            this.chartCoordinates.Series.Add(series4);
+            this.chartCoordinates.Series.Add(series5);
             this.chartCoordinates.Size = new System.Drawing.Size(978, 432);
             this.chartCoordinates.TabIndex = 0;
             this.chartCoordinates.Text = "зависимость координат";
@@ -660,38 +661,38 @@
             this.tabPageSpeed.Name = "tabPageSpeed";
             this.tabPageSpeed.Size = new System.Drawing.Size(978, 432);
             this.tabPageSpeed.TabIndex = 6;
-            this.tabPageSpeed.Text = "скорости";
+            this.tabPageSpeed.Text = "Скорости";
             this.tabPageSpeed.UseVisualStyleBackColor = true;
             // 
             // chartSpeed
             // 
-            chartArea19.AxisX.LabelStyle.Format = "0.00";
-            chartArea19.Name = "ChartArea1";
-            this.chartSpeed.ChartAreas.Add(chartArea19);
-            legend19.Alignment = System.Drawing.StringAlignment.Center;
-            legend19.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend19.Name = "Legend1";
-            this.chartSpeed.Legends.Add(legend19);
+            chartArea5.AxisX.LabelStyle.Format = "0.00";
+            chartArea5.Name = "ChartArea1";
+            this.chartSpeed.ChartAreas.Add(chartArea5);
+            legend5.Alignment = System.Drawing.StringAlignment.Center;
+            legend5.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend5.Name = "Legend1";
+            this.chartSpeed.Legends.Add(legend5);
             this.chartSpeed.Location = new System.Drawing.Point(0, 0);
             this.chartSpeed.Name = "chartSpeed";
-            series26.ChartArea = "ChartArea1";
-            series26.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series26.Legend = "Legend1";
-            series26.LegendText = "Vx, м/с";
-            series26.Name = "Vx";
-            series27.ChartArea = "ChartArea1";
-            series27.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series27.Legend = "Legend1";
-            series27.LegendText = "Vy, м/с";
-            series27.Name = "Vy";
-            series28.ChartArea = "ChartArea1";
-            series28.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series28.Legend = "Legend1";
-            series28.LegendText = "V, м/с";
-            series28.Name = "V";
-            this.chartSpeed.Series.Add(series26);
-            this.chartSpeed.Series.Add(series27);
-            this.chartSpeed.Series.Add(series28);
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series6.Legend = "Legend1";
+            series6.LegendText = "Vx, м/с";
+            series6.Name = "Vx";
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series7.Legend = "Legend1";
+            series7.LegendText = "Vy, м/с";
+            series7.Name = "Vy";
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series8.Legend = "Legend1";
+            series8.LegendText = "V, м/с";
+            series8.Name = "V";
+            this.chartSpeed.Series.Add(series6);
+            this.chartSpeed.Series.Add(series7);
+            this.chartSpeed.Series.Add(series8);
             this.chartSpeed.Size = new System.Drawing.Size(978, 432);
             this.chartSpeed.TabIndex = 0;
             this.chartSpeed.Text = "зависимость скоростей";
@@ -703,28 +704,28 @@
             this.tabPageEnergy.Name = "tabPageEnergy";
             this.tabPageEnergy.Size = new System.Drawing.Size(978, 432);
             this.tabPageEnergy.TabIndex = 7;
-            this.tabPageEnergy.Text = "энергия";
+            this.tabPageEnergy.Text = "Энергия";
             this.tabPageEnergy.UseVisualStyleBackColor = true;
             // 
             // chartEnergy
             // 
-            chartArea20.AxisX.IsStartedFromZero = false;
-            chartArea20.AxisX.LabelStyle.Format = "0.00";
-            chartArea20.AxisY.IsStartedFromZero = false;
-            chartArea20.Name = "ChartArea1";
-            this.chartEnergy.ChartAreas.Add(chartArea20);
-            legend20.Alignment = System.Drawing.StringAlignment.Center;
-            legend20.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend20.Name = "Legend1";
-            this.chartEnergy.Legends.Add(legend20);
+            chartArea6.AxisX.IsStartedFromZero = false;
+            chartArea6.AxisX.LabelStyle.Format = "0.00";
+            chartArea6.AxisY.IsStartedFromZero = false;
+            chartArea6.Name = "ChartArea1";
+            this.chartEnergy.ChartAreas.Add(chartArea6);
+            legend6.Alignment = System.Drawing.StringAlignment.Center;
+            legend6.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend6.Name = "Legend1";
+            this.chartEnergy.Legends.Add(legend6);
             this.chartEnergy.Location = new System.Drawing.Point(0, 0);
             this.chartEnergy.Name = "chartEnergy";
-            series29.ChartArea = "ChartArea1";
-            series29.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series29.Legend = "Legend1";
-            series29.LegendText = "E, Дж";
-            series29.Name = "E";
-            this.chartEnergy.Series.Add(series29);
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series9.Legend = "Legend1";
+            series9.LegendText = "E, Дж";
+            series9.Name = "E";
+            this.chartEnergy.Series.Add(series9);
             this.chartEnergy.Size = new System.Drawing.Size(978, 432);
             this.chartEnergy.TabIndex = 0;
             this.chartEnergy.Text = "Зависимость энергии";
@@ -736,40 +737,52 @@
             this.tabPageDeltaEnergy.Name = "tabPageDeltaEnergy";
             this.tabPageDeltaEnergy.Size = new System.Drawing.Size(978, 432);
             this.tabPageDeltaEnergy.TabIndex = 9;
-            this.tabPageDeltaEnergy.Text = "отклонение энергии";
+            this.tabPageDeltaEnergy.Text = "Отклонение энергии";
             this.tabPageDeltaEnergy.UseVisualStyleBackColor = true;
             // 
             // chartdEnergy
             // 
-            chartArea21.AxisX.LabelStyle.Format = "0.00";
-            chartArea21.Name = "ChartArea1";
-            this.chartdEnergy.ChartAreas.Add(chartArea21);
-            legend21.Alignment = System.Drawing.StringAlignment.Center;
-            legend21.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend21.Name = "Legend1";
-            this.chartdEnergy.Legends.Add(legend21);
+            chartArea7.AxisX.LabelStyle.Format = "0.00";
+            chartArea7.Name = "ChartArea1";
+            this.chartdEnergy.ChartAreas.Add(chartArea7);
+            legend7.Alignment = System.Drawing.StringAlignment.Center;
+            legend7.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend7.Name = "Legend1";
+            this.chartdEnergy.Legends.Add(legend7);
             this.chartdEnergy.Location = new System.Drawing.Point(0, 0);
             this.chartdEnergy.Name = "chartdEnergy";
-            series30.ChartArea = "ChartArea1";
-            series30.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series30.Legend = "Legend1";
-            series30.LegendText = "ΔE, Дж";
-            series30.Name = "dE";
-            this.chartdEnergy.Series.Add(series30);
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series10.Legend = "Legend1";
+            series10.LegendText = "ΔE, Дж";
+            series10.Name = "dE";
+            this.chartdEnergy.Series.Add(series10);
             this.chartdEnergy.Size = new System.Drawing.Size(978, 432);
             this.chartdEnergy.TabIndex = 1;
             this.chartdEnergy.Text = "Зависимость отклонения энергии";
             // 
             // tabPageAnimation
             // 
+            this.tabPageAnimation.Controls.Add(this.labelSpeedOfAnimation);
             this.tabPageAnimation.Controls.Add(this.trackBarAnimation);
             this.tabPageAnimation.Controls.Add(this.pictureBoxAnimate);
             this.tabPageAnimation.Location = new System.Drawing.Point(4, 23);
             this.tabPageAnimation.Name = "tabPageAnimation";
             this.tabPageAnimation.Size = new System.Drawing.Size(978, 432);
             this.tabPageAnimation.TabIndex = 8;
-            this.tabPageAnimation.Text = "анимация";
+            this.tabPageAnimation.Text = "Анимация";
             this.tabPageAnimation.UseVisualStyleBackColor = true;
+            // 
+            // trackBarAnimation
+            // 
+            this.trackBarAnimation.BackColor = System.Drawing.SystemColors.Window;
+            this.trackBarAnimation.LargeChange = 1;
+            this.trackBarAnimation.Location = new System.Drawing.Point(0, 387);
+            this.trackBarAnimation.Maximum = 20;
+            this.trackBarAnimation.Name = "trackBarAnimation";
+            this.trackBarAnimation.Size = new System.Drawing.Size(215, 45);
+            this.trackBarAnimation.TabIndex = 1;
+            this.trackBarAnimation.ValueChanged += new System.EventHandler(this.trackBarAnimation_ValueChanged);
             // 
             // pictureBoxAnimate
             // 
@@ -783,17 +796,15 @@
             // 
             this.timerAnimate.Tick += new System.EventHandler(this.timerAnimate_Tick);
             // 
-            // trackBarAnimation
+            // labelSpeedOfAnimation
             // 
-            this.trackBarAnimation.BackColor = System.Drawing.SystemColors.Window;
-            this.trackBarAnimation.LargeChange = 1;
-            this.trackBarAnimation.Location = new System.Drawing.Point(0, 387);
-            this.trackBarAnimation.Maximum = 20;
-            this.trackBarAnimation.Name = "trackBarAnimation";
-            this.trackBarAnimation.Size = new System.Drawing.Size(184, 45);
-            this.trackBarAnimation.TabIndex = 1;
-            this.trackBarAnimation.Value = 1;
-            this.trackBarAnimation.ValueChanged += new System.EventHandler(this.trackBarAnimation_ValueChanged);
+            this.labelSpeedOfAnimation.AutoSize = true;
+            this.labelSpeedOfAnimation.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSpeedOfAnimation.Location = new System.Drawing.Point(3, 415);
+            this.labelSpeedOfAnimation.Name = "labelSpeedOfAnimation";
+            this.labelSpeedOfAnimation.Size = new System.Drawing.Size(110, 17);
+            this.labelSpeedOfAnimation.TabIndex = 2;
+            this.labelSpeedOfAnimation.Text = "Скорость анимации";
             // 
             // Form1
             // 
@@ -825,8 +836,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.chartdEnergy)).EndInit();
             this.tabPageAnimation.ResumeLayout(false);
             this.tabPageAnimation.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarAnimation)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnimate)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -841,22 +852,22 @@
         private System.Windows.Forms.TextBox textBoxm;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPageInput;
-        private System.Windows.Forms.Button button_sohranit;
-        private System.Windows.Forms.Button button_rasschitat;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button buttonSave;
+        private System.Windows.Forms.Button buttonCalculate;
+        private System.Windows.Forms.Label labelS2;
+        private System.Windows.Forms.Label labelS3;
+        private System.Windows.Forms.Label labelDT2;
+        private System.Windows.Forms.Label labelDT;
+        private System.Windows.Forms.Label labelS1;
+        private System.Windows.Forms.Label labelT;
+        private System.Windows.Forms.Label labelModelParam;
+        private System.Windows.Forms.Label labelDeg;
+        private System.Windows.Forms.Label labelFI_0;
+        private System.Windows.Forms.Label labelV;
+        private System.Windows.Forms.Label labelL;
+        private System.Windows.Forms.Label labelKG;
+        private System.Windows.Forms.Label labelM;
+        private System.Windows.Forms.Label labelPhisParam;
         private System.Windows.Forms.TabPage tabPageTable;
         private System.Windows.Forms.TabPage tabPageAngle;
         private System.Windows.Forms.TabPage tabPageAngSpeed;
@@ -889,6 +900,7 @@
         private System.Windows.Forms.Timer timerAnimate;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TrackBar trackBarAnimation;
+        private System.Windows.Forms.Label labelSpeedOfAnimation;
     }
 }
 
